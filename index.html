@@ -16,7 +16,6 @@
             box-sizing: border-box;
             font-family: "Century Gothic", CenturyGothic, "Rubik", sans-serif;
         }
-
         body {
             background-color: #f5f5f5;
             color: #333;
@@ -25,7 +24,6 @@
             flex-direction: column;
             min-height: 100vh;
         }
-
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -41,13 +39,11 @@
             padding: 8px 0;
             position: relative;
         }
-
         .top-nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-
         .logo {
             display: flex;
             align-items: center;
@@ -55,44 +51,36 @@
             font-size: 28px;
             font-weight: 700;
         }
-
         .logo-img {
             height: 80px;
             width: auto;
         }
-
         .logo-text {
             font-size: 20px;
             font-weight: bold;
             color: white;
         }
-
         .nav-links {
             display: flex;
             gap: 25px;
         }
-
         .nav-links a {
             color: white;
             text-decoration: none;
             font-weight: 500;
             font-size: 16px;
         }
-
         .nav-links a:hover {
             text-decoration: underline;
         }
-
         .header-content {
             text-align: center;
             padding: 8px 0;
         }
-
         .header-content h1 {
             font-size: 32px;
             margin-bottom: 8px;
         }
-
         .header-content p {
             font-size: 18px;
             font-style: italic;
@@ -110,7 +98,6 @@
             padding-right: 10px;
             align-items: flex-start;
         }
-
         .map-section {
             height: 100%;
             padding: 0;
@@ -120,7 +107,6 @@
             display: flex;
             flex-direction: column;
         }
-
         .map-section h2 {
             background-color: #6fb353;
             color: white;
@@ -129,15 +115,12 @@
             padding: 10px;
             margin: 0;
         }
-
         #mainMap {
             flex: 1;
             width: 100%;
             height: 100%;
         }
-
-        .sidebar,
-        .content-area {
+        .sidebar, .content-area {
             position: relative;
             top: auto;
             align-self: start;
@@ -165,7 +148,6 @@
             top: 10px;
             align-self: start;
         }
-
         .index-page .map-section {
             position: sticky;
             top: 10px;
@@ -177,7 +159,6 @@
             height: auto !important;
             display: block !important;
         }
-
         .index-page #mainMap {
             width: 100%;
             height: 500px !important; /* fixed visible height */
@@ -196,14 +177,12 @@
             width: 260px;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
         }
-
         .location-search {
             background: #eee;
             padding: 10px 15px;
             margin-bottom: 15px;
             border-radius: 5px;
         }
-
         .location-search h3 {
             margin-top: 0;
             font-size: 16px;
@@ -225,11 +204,9 @@
             position: relative;
             border-radius: 5px;
         }
-
         .accordion.active {
             background: #5a9445;
         }
-
         .accordion::after {
             content: "▼";
             font-size: 0.8em;
@@ -238,11 +215,9 @@
             transition: transform 0.2s ease;
             color: white;
         }
-
         .accordion.active::after {
             content: "▲";
         }
-
         .panel {
             display: none;
             padding: 10px 15px;
@@ -257,7 +232,6 @@
             flex-direction: column;
             gap: 10px;
         }
-
         .filter-actions button {
             background: #6fb353;
             color: white;
@@ -266,20 +240,16 @@
             cursor: pointer;
             border-radius: 5px;
         }
-
         .filter-actions button:hover {
             background: #5a9445;
         }
-
         #resetFiltersBtn {
             background: #ccc;
             color: #333;
         }
-
         #resetFiltersBtn:hover {
             background: #999;
         }
-
         #applyLocationBtn {
             margin-top: 10px;
             background: #6fb353;
@@ -292,7 +262,6 @@
             width: 100%;
             transition: background 0.2s ease;
         }
-
         #applyLocationBtn:hover {
             background: #5a9445;
         }
@@ -307,18 +276,15 @@
             border: none;
             border-radius: 8px;
         }
-
         .view-toggle h3 {
             margin-bottom: 10px;
             font-size: 18px;
         }
-
         .view-buttons {
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
         }
-
         .toggle-btn {
             flex: 1;
             background: #6fb353;
@@ -330,11 +296,9 @@
             cursor: pointer;
             transition: background 0.2s ease;
         }
-
         .toggle-btn:hover {
             background: #5a9445;
         }
-
         .toggle-btn.active {
             background: #f48810;
         }
@@ -349,7 +313,6 @@
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
         }
-
         .results-header {
             display: flex;
             justify-content: space-between;
@@ -358,34 +321,29 @@
             margin-bottom: 10px;
             gap: 10px;
         }
-
         .sort-select-label {
             display: flex;
             align-items: center;
             gap: 6px;
             font-size: 14px;
         }
-
         .results-table {
             width: 100%;
             border-collapse: separate;
             border-spacing: 0 10px;
             margin-bottom: 20px;
         }
-
         .results-table th {
             background-color: #f0f0f0;
             text-align: left;
             padding: 12px 15px;
             border-bottom: 2px solid #ddd;
         }
-
         .results-table td {
             padding: 12px 15px;
             border: 2px solid #6fb353;
             border-radius: 8px;
         }
-
         .results-table tr {
             background-color: white;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -400,9 +358,7 @@
             align-items: center;
             gap: 6px;
         }
-
-        .toggle-detail,
-        .view-full-detail {
+        .toggle-detail, .view-full-detail {
             background: #f48810;
             color: white;
             border: none;
@@ -414,12 +370,9 @@
             width: 140px;
             text-align: center;
         }
-
-        .toggle-detail:hover,
-        .view-full-detail:hover {
+        .toggle-detail:hover, .view-full-detail:hover {
             background: #d9740e;
         }
-
         @media (min-width: 992px) {
             .details-buttons {
                 flex-direction: row;
@@ -433,7 +386,6 @@
             background-color: #f9f9f9;
             border-top: 2px solid #6fb353;
         }
-
         .detail-info {
             padding: 10px 20px;
             font-size: 0.95em;
@@ -451,17 +403,14 @@
             justify-content: center;
             gap: 3px;
         }
-
         .star {
             width: 22px;
             height: 22px;
             fill: #a4cc95;
         }
-
         .star.full {
             fill: #f48810;
         }
-
         .star.half {
             fill: url(#halfGradient);
         }
@@ -475,14 +424,12 @@
             padding: 30px 0;
             margin-top: 40px;
         }
-
         .footer-content {
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 20px;
         }
-
         .footer-links {
             display: flex;
             justify-content: center;
@@ -490,16 +437,13 @@
             flex-wrap: wrap;
             list-style: none;
         }
-
         .footer-links a {
             color: white;
             text-decoration: none;
         }
-
         .footer-links a:hover {
             text-decoration: underline;
         }
-
         .copyright {
             font-size: 14px;
             text-align: center;
@@ -520,7 +464,6 @@
                 height: 400px;
             }
         }
-
         @media (max-width: 768px) {
             .top-nav {
                 flex-direction: column;
@@ -542,8 +485,7 @@
                 display: block;
                 overflow-x: auto;
             }
-            .details-grid,
-            .detail-page-grid {
+            .details-grid, .detail-page-grid {
                 grid-template-columns: 1fr;
             }
             .hospital-header {
@@ -565,7 +507,6 @@
             margin-bottom: 4px;
             padding: 8px 0;
         }
-
         .detail-topbar .btn.back {
             background-color: #f48810;
             color: #fff;
@@ -576,11 +517,9 @@
             font-size: 0.9rem;
             transition: background-color 0.2s ease;
         }
-
         .detail-topbar .btn.back:hover {
             background-color: #d97706;
         }
-
         .detail-topbar h1 {
             font-size: 1.6rem;
             font-weight: 700;
@@ -589,11 +528,9 @@
             text-align: center;
             color: #333;
         }
-
         .detail-topbar .spacer {
             width: 110px; /* roughly the same width as the back button */
         }
-
         .detail-hero-wrap {
             width: 100%;
             background: #fff;
@@ -601,7 +538,6 @@
             margin: 0;
             padding: 0;
         }
-
         .detail-hero {
             width: 100%;
             max-width: none;
@@ -612,7 +548,6 @@
             gap: 16px;
             align-items: stretch;
         }
-
         .hero-card {
             background: #ffffff;
             border: 2px solid #6fb35322;
@@ -623,11 +558,9 @@
             flex-direction: column;
             gap: 10px;
         }
-
         .hero-card h3 {
             margin-bottom: 4px;
         }
-
         #leafletMap {
             width: 100%;
             height: 250px;
@@ -635,11 +568,9 @@
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
             margin-bottom: 15px;
         }
-
         .gmaps-link {
             margin-top: 6px;
         }
-
         .address-block {
             margin-top: 8px;
             line-height: 1.3;
@@ -658,7 +589,6 @@
             padding: 0;
             margin: 0;
         }
-
         .services-grid li {
             background-color: #f9faf9;
             border: 1px solid #e0e0e0;
@@ -672,14 +602,12 @@
             gap: 6px;
             transition: background-color 0.2s ease-in-out;
         }
-
         .services-grid li::before {
             content: "✔";
             color: #6fb353; /* your green */
             font-weight: bold;
             font-size: 0.85em;
         }
-
         .services-grid li:hover {
             background-color: #f4fff7;
         }
@@ -691,14 +619,12 @@
             margin: 0;
             padding: 0 2vw 40px;
         }
-
         .metric-section {
             background: #fff;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
             margin-bottom: 18px;
             overflow: hidden;
         }
-
         .metric-header {
             display: flex;
             justify-content: space-between;
@@ -709,22 +635,18 @@
             color: #ffffff;
             border-bottom: none;
         }
-
         .metric-header h2 {
             font-size: 1.15rem;
             margin: 0;
             color: #ffffff;
             font-weight: 700;
         }
-
         .metric-header .star-rating svg {
             fill: #f48810; /* orange stars */
         }
-
         .submetric {
             border-top: 1px solid #eee;
         }
-
         .submetric summary {
             cursor: pointer;
             padding: 12px 16px;
@@ -734,17 +656,14 @@
             align-items: center;
             justify-content: space-between;
         }
-
         .submetric summary::after {
             content: "▼";
             font-size: 0.9em;
             transition: transform 0.2s ease;
         }
-
         .submetric[open] summary::after {
             transform: rotate(180deg);
         }
-
         .submetric p {
             padding: 10px 18px 14px;
             font-size: 0.95em;
@@ -761,40 +680,32 @@
             text-align: center;
             padding: 60px 20px;
         }
-
         .methodology-hero h1 {
             font-size: 2.4rem;
             margin-bottom: 10px;
         }
-
         .methodology-hero .lead {
             font-size: 1.1rem;
             max-width: 800px;
             margin: 0 auto;
         }
-
         .methodology-content {
             padding: 40px 20px;
         }
-
         .methodology-content h2 {
             color: #6fb353;
             margin-top: 30px;
         }
-
-        .methodology-content p,
-        .methodology-content ul {
+        .methodology-content p, .methodology-content ul {
             margin-top: 10px;
             line-height: 1.6;
         }
-
         .category-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 20px;
             margin-top: 20px;
         }
-
         .category-card {
             background: #fff;
             border: 2px solid #6fb35333;
@@ -803,17 +714,14 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
             transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
-
         .category-card h3 {
             color: #6fb353;
             margin-bottom: 8px;
         }
-
         .category-card:hover {
             transform: translateY(-4px);
             box-shadow: 0 4px 12px rgba(0,0,0,0.12);
         }
-
         .methodology-faq details {
             background: #fff;
             border: 1px solid #ddd;
@@ -821,13 +729,11 @@
             margin-top: 12px;
             padding: 10px 14px;
         }
-
         .methodology-faq summary {
             font-weight: bold;
             color: #6fb353;
             cursor: pointer;
         }
-
         .methodology-faq p {
             margin-top: 8px;
             color: #333;
@@ -842,19 +748,16 @@
             border-top: 2px solid #6fb35333;
             border-bottom: 2px solid #6fb35333;
         }
-
         .methodology-download h2 {
             color: #6fb353;
             margin-bottom: 10px;
             font-size: 1.8rem;
         }
-
         .methodology-download p {
             color: #555;
             max-width: 700px;
             margin: 0 auto 20px;
         }
-
         .btn-download {
             display: inline-block;
             background: #6fb353;
@@ -865,17 +768,14 @@
             font-weight: 600;
             transition: background 0.2s ease;
         }
-
         .btn-download:hover {
             background: #5aa345;
         }
-
         .btn-download[aria-disabled="true"] {
             background: #ccc;
             color: #666;
             cursor: not-allowed;
         }
-
         .last-updated {
             margin-top: 14px;
             font-size: 0.9rem;
@@ -902,18 +802,15 @@
             line-height: 1.2;
             border-radius: 4px 4px 0 0;
         }
-
         .index-page .sidebar summary::marker {
             display: none;
         }
-
         .index-page .sidebar summary::after {
             content: "▼";
             font-size: 0.75em;
             margin-left: 6px;
             transition: transform 0.2s ease;
         }
-
         /* Add space between accordion sections */
         .index-page .sidebar details {
             margin-bottom: 10px; /* space between each filter section */
@@ -922,15 +819,12 @@
             background: #fff;
             overflow: hidden;
         }
-
         .index-page .sidebar details:last-of-type {
             margin-bottom: 0; /* no extra space at the end */
         }
-
         .index-page .sidebar details[open] summary::after {
             transform: rotate(180deg);
         }
-
         .index-page .filter-group {
             display: flex;
             flex-direction: column;
@@ -951,16 +845,13 @@
             padding: 0 10px;
             align-items: start;
         }
-
         /* Sidebar + Results scroll normally */
-        .index-page .sidebar,
-        .index-page .content-area {
+        .index-page .sidebar, .index-page .content-area {
             position: relative;
             align-self: stretch;
             height: auto;
             overflow: visible;
         }
-
         /* Visual alignment between columns */
         .main-content > * {
             align-self: stretch;
@@ -978,15 +869,12 @@
             height: 100%;
             justify-content: center;
         }
-
         .details-buttons button {
             flex: 1;
             min-width: 100%;
             box-sizing: border-box;
         }
-
-        .toggle-detail,
-        .view-full-detail {
+        .toggle-detail, .view-full-detail {
             background: #f48810;
             color: #fff;
             border: none;
@@ -997,9 +885,7 @@
             transition: background 0.2s ease;
             text-align: center;
         }
-
-        .toggle-detail:hover,
-        .view-full-detail:hover {
+        .toggle-detail:hover, .view-full-detail:hover {
             background: #d9740e;
         }
 
@@ -1012,31 +898,26 @@
             gap: 6px;
             margin: 4px 0;
         }
-
         .detail-info .star-rating {
             display: inline-flex;
             align-items: center;
             gap: 2px;
             line-height: 1;
         }
-
         .detail-info .star {
             width: 18px;
             height: 18px;
         }
-
         /* Optional: neat label column alignment */
         .detail-info p.inline-stars strong {
             min-width: 85px;
             display: inline-block;
             font-size: 0.95em;
         }
-
         .hospital-title {
             text-align: center;
             margin: 20px 0 10px;
         }
-
         @media (max-width: 992px) {
             .detail-hero {
                 grid-template-columns: 1fr;
@@ -1055,9 +936,7 @@
             justify-content: center;
             gap: 15px;
         }
-
-        .mobile-nav-toggle,
-        .mobile-filter-toggle {
+        .mobile-nav-toggle, .mobile-filter-toggle {
             background: #6fb353; /* CHANGED TO GREEN */
             color: white;
             border: none;
@@ -1075,9 +954,7 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             transition: background 0.2s ease;
         }
-
-        .mobile-nav-toggle:hover,
-        .mobile-filter-toggle:hover {
+        .mobile-nav-toggle:hover, .mobile-filter-toggle:hover {
             background: #5a9445;
         }
 
@@ -1092,7 +969,6 @@
             background: rgba(0, 0, 0, 0.5);
             z-index: 1000;
         }
-
         .mobile-nav-panel {
             position: fixed;
             top: 0;
@@ -1105,11 +981,9 @@
             z-index: 1001;
             overflow-y: auto;
         }
-
         .mobile-nav-panel.active {
             left: 0;
         }
-
         .mobile-nav-header {
             background: #6fb353;
             color: white;
@@ -1118,12 +992,10 @@
             justify-content: space-between;
             align-items: center;
         }
-
         .mobile-nav-header h3 {
             margin: 0;
             font-size: 1.2rem;
         }
-
         .mobile-nav-close {
             background: none;
             border: none;
@@ -1137,11 +1009,9 @@
             align-items: center;
             justify-content: center;
         }
-
         .mobile-nav-links {
             padding: 20px;
         }
-
         .mobile-nav-links a {
             display: block;
             padding: 12px 0;
@@ -1151,11 +1021,9 @@
             border-bottom: 1px solid #eee;
             font-size: 16px;
         }
-
         .mobile-nav-links a:hover {
             color: #6fb353;
         }
-
         .mobile-nav-links .donate-btn {
             background: #f48810;
             color: white;
@@ -1177,7 +1045,6 @@
             background: rgba(0, 0, 0, 0.5);
             z-index: 1000;
         }
-
         .mobile-filter-panel {
             position: fixed;
             top: 0;
@@ -1190,11 +1057,9 @@
             z-index: 1001;
             overflow-y: auto;
         }
-
         .mobile-filter-panel.active {
             right: 0;
         }
-
         .mobile-filter-header {
             background: #6fb353;
             color: white;
@@ -1203,12 +1068,10 @@
             justify-content: space-between;
             align-items: center;
         }
-
         .mobile-filter-header h3 {
             margin: 0;
             font-size: 1.2rem;
         }
-
         .mobile-filter-close {
             background: none;
             border: none;
@@ -1222,7 +1085,6 @@
             align-items: center;
             justify-content: center;
         }
-
         .mobile-filter-content {
             padding: 20px;
         }
@@ -1235,7 +1097,6 @@
             overflow: hidden;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
-
         .mobile-map-section h2 {
             background-color: #6fb353;
             color: white;
@@ -1244,7 +1105,6 @@
             padding: 12px;
             margin: 0;
         }
-
         #mobileMainMap {
             width: 100%;
             height: 300px;
@@ -1253,21 +1113,17 @@
         /* Mobile Layout Adjustments */
         @media (max-width: 767px) {
             /* Hide desktop sidebar and map column */
-            .sidebar,
-            .map-column {
+            .sidebar, .map-column {
                 display: none;
             }
-
             /* Show mobile controls */
             .mobile-header-controls {
                 display: flex;
             }
-
             /* Show mobile map */
             .mobile-map-section {
                 display: block;
             }
-
             /* Adjust main content grid for mobile */
             .main-content {
                 grid-template-columns: 1fr;
@@ -1275,121 +1131,96 @@
                 margin-top: 0;
                 padding: 0 10px;
             }
-
             /* Mobile header adjustments */
             .top-nav {
                 flex-direction: column;
                 gap: 15px;
                 padding: 10px 0;
             }
-
             .logo {
                 justify-content: center;
             }
-
             .nav-links {
                 display: none; /* Hide desktop nav on mobile */
             }
-
             .header-content {
                 padding: 15px 0;
             }
-
             .header-content h1 {
                 font-size: 24px;
             }
-
             .header-content p {
                 font-size: 16px;
             }
-
             /* Mobile table adjustments */
             .results-table {
                 display: block;
                 overflow-x: auto;
                 font-size: 14px;
             }
-
-            .results-table th,
-            .results-table td {
+            .results-table th, .results-table td {
                 padding: 8px 10px;
                 min-width: 80px;
             }
-
-            .results-table th:nth-child(2),
-            .results-table td:nth-child(2) {
+            .results-table th:nth-child(2), .results-table td:nth-child(2) {
                 min-width: 150px;
             }
-
             /* Mobile button adjustments */
             .details-buttons {
                 flex-direction: column;
                 gap: 5px;
             }
-
-            .toggle-detail,
-            .view-full-detail {
+            .toggle-detail, .view-full-detail {
                 width: 100%;
                 font-size: 12px;
                 padding: 6px 8px;
             }
-
             /* Mobile search section */
             .search-section {
                 padding: 15px;
                 margin-bottom: 15px;
             }
-
             .results-header {
                 flex-direction: column;
                 gap: 10px;
                 align-items: flex-start;
             }
-
             .sort-select-label {
                 width: 100%;
                 justify-content: space-between;
             }
-
             /* Mobile footer */
             .footer-links {
                 flex-direction: column;
                 gap: 10px;
                 text-align: center;
             }
-
             /* Detail page mobile adjustments */
             .detail-topbar {
                 flex-direction: column;
                 gap: 10px;
                 text-align: center;
             }
-
             .detail-topbar h1 {
                 font-size: 1.3rem;
                 order: -1;
             }
-
             .detail-hero {
                 grid-template-columns: 1fr;
                 gap: 15px;
                 padding: 15px 10px;
             }
-
             .hero-card {
                 padding: 12px;
             }
-
             .metrics-wrap {
                 padding: 0 10px 20px;
             }
-
             .metric-header {
                 flex-direction: column;
                 gap: 10px;
                 text-align: center;
             }
-
             .services-grid {
                 grid-template-columns: 1fr;
             }
@@ -1403,58 +1234,45 @@
             .sidebar {
                 width: 240px;
             }
-            .mobile-header-controls,
-            .mobile-map-section {
+            .mobile-header-controls, .mobile-map-section {
                 display: none;
             }
         }
 
         /* Prevent body scroll when mobile panels are open */
-        body.mobile-nav-open,
-        body.mobile-filter-open {
+        body.mobile-nav-open, body.mobile-filter-open {
             overflow: hidden;
         }
 
         /* Mobile filter content styling */
-        .mobile-filter-content .view-toggle,
-        .mobile-filter-content .location-search,
-        .mobile-filter-content details,
-        .mobile-filter-content .filter-actions {
+        .mobile-filter-content .view-toggle, .mobile-filter-content .location-search, .mobile-filter-content details, .mobile-filter-content .filter-actions {
             margin-bottom: 20px;
         }
-
         .mobile-filter-content .filter-group {
             display: flex;
             flex-direction: column;
             gap: 8px;
         }
-
         .mobile-filter-content .view-buttons {
             flex-direction: column;
         }
-
         .mobile-filter-content .toggle-btn {
             width: 100%;
         }
 
         /* Touch-friendly improvements */
         @media (max-width: 767px) {
-            button,
-            a,
-            input,
-            select {
+            button, a, input, select {
                 min-height: 44px;
                 min-width: 44px;
             }
-            .toggle-detail,
-            .view-full-detail {
+            .toggle-detail, .view-full-detail {
                 min-height: 44px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
             }
-            .mobile-nav-toggle,
-            .mobile-filter-toggle {
+            .mobile-nav-toggle, .mobile-filter-toggle {
                 min-height: 50px;
             }
         }
@@ -1465,7 +1283,6 @@
         .compare-page {
             background-color: #f5f5f5;
         }
-
         .compare-container {
             max-width: 1200px;
             margin: 0 auto;
@@ -1480,14 +1297,12 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             margin-bottom: 30px;
         }
-
         .selection-cards {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 30px;
             margin-bottom: 30px;
         }
-
         .hospital-selection-card {
             background: #f8f9fa;
             border: 2px solid #e9ecef;
@@ -1495,12 +1310,10 @@
             padding: 25px;
             transition: all 0.3s ease;
         }
-
         .hospital-selection-card:hover {
             border-color: #6fb353;
             box-shadow: 0 4px 12px rgba(111, 179, 83, 0.1);
         }
-
         .hospital-selection-card h3 {
             color: #6fb353;
             margin-bottom: 20px;
@@ -1512,7 +1325,6 @@
         .dropdown-container {
             margin-bottom: 20px;
         }
-
         .hospital-dropdown {
             width: 100%;
             padding: 12px 16px;
@@ -1523,12 +1335,10 @@
             cursor: pointer;
             transition: border-color 0.3s ease;
         }
-
         .hospital-dropdown:focus {
             outline: none;
             border-color: #6fb353;
         }
-
         .hospital-dropdown option {
             padding: 10px;
         }
@@ -1542,34 +1352,28 @@
             text-align: center;
             transition: all 0.3s ease;
         }
-
         .selected-hospital.hospital-selected {
             border-color: #6fb353;
             border-style: solid;
             background: #f8fff8;
         }
-
         .selected-hospital .placeholder {
             color: #6c757d;
             font-style: italic;
             margin: 0;
         }
-
         .hospital-preview {
             text-align: left;
         }
-
         .hospital-preview h4 {
             color: #6fb353;
             margin-bottom: 8px;
             font-size: 1.1rem;
         }
-
         .hospital-preview .location {
             color: #666;
             margin-bottom: 12px;
         }
-
         .hospital-preview .grade {
             display: flex;
             align-items: center;
@@ -1584,21 +1388,17 @@
             justify-content: center;
             gap: 3px;
         }
-
         .star {
             width: 18px;
             height: 18px;
             fill: #a4cc95;
         }
-
         .star.full {
             fill: #f48810;
         }
-
         .star.half {
             fill: url(#halfGradient);
         }
-
         .star.empty {
             fill: #ddd;
         }
@@ -1610,7 +1410,6 @@
             gap: 15px;
             flex-wrap: wrap;
         }
-
         .compare-now-btn {
             background: #6fb353;
             color: white;
@@ -1623,16 +1422,13 @@
             transition: background 0.3s ease;
             min-width: 200px;
         }
-
         .compare-now-btn:hover:not(:disabled) {
             background: #5a9445;
         }
-
         .compare-now-btn:disabled {
             background: #ccc;
             cursor: not-allowed;
         }
-
         .clear-selection-btn {
             background: #6c757d;
             color: white;
@@ -1644,7 +1440,6 @@
             cursor: pointer;
             transition: background 0.3s ease;
         }
-
         .clear-selection-btn:hover {
             background: #545b62;
         }
@@ -1656,7 +1451,6 @@
             border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
-
         .results-header {
             display: flex;
             justify-content: space-between;
@@ -1665,12 +1459,10 @@
             padding-bottom: 20px;
             border-bottom: 2px solid #e9ecef;
         }
-
         .results-header h2 {
             color: #6fb353;
             margin: 0;
         }
-
         .back-to-selection-btn {
             background: #6c757d;
             color: white;
@@ -1680,7 +1472,6 @@
             cursor: pointer;
             transition: background 0.3s ease;
         }
-
         .back-to-selection-btn:hover {
             background: #545b62;
         }
@@ -1690,13 +1481,11 @@
             display: grid;
             gap: 20px;
         }
-
         .comparison-category {
             background: #f8f9fa;
             border-radius: 8px;
             overflow: hidden;
         }
-
         .category-header {
             background: #6fb353;
             color: white;
@@ -1707,39 +1496,31 @@
             align-items: center;
             transition: background 0.3s ease;
         }
-
         .category-header:hover {
             background: #5a9445;
         }
-
         .category-header h3 {
             margin: 0;
             font-size: 1.2rem;
         }
-
         .category-toggle {
             font-size: 1.2rem;
             transition: transform 0.3s ease;
         }
-
         .category-header.active .category-toggle {
             transform: rotate(180deg);
         }
-
         .category-content {
             padding: 20px;
             display: none;
         }
-
         .category-content.active {
             display: block;
         }
-
         .metrics-grid {
             display: grid;
             gap: 15px;
         }
-
         .metric-row {
             display: grid;
             grid-template-columns: 1fr auto 1fr;
@@ -1750,25 +1531,21 @@
             border-radius: 6px;
             border: 1px solid #e9ecef;
         }
-
         .metric-name {
             font-weight: 600;
             color: #333;
             text-align: right;
         }
-
         .metric-divider {
             text-align: center;
             color: #6c757d;
             font-weight: 600;
         }
-
         .metric-values {
             display: flex;
             flex-direction: column;
             gap: 8px;
         }
-
         .metric-value {
             display: flex;
             justify-content: space-between;
@@ -1777,31 +1554,25 @@
             border-radius: 4px;
             background: #f8f9fa;
         }
-
         .hospital-1-value {
             border-left: 3px solid #6fb353;
         }
-
         .hospital-2-value {
             border-left: 3px solid #f48810;
         }
-
         .metric-value-content {
             display: flex;
             align-items: center;
             gap: 8px;
         }
-
         .metric-value-text {
             font-weight: 600;
         }
-
         .star-comparison {
             display: flex;
             align-items: center;
             gap: 3px;
         }
-
         .star-comparison .star {
             width: 16px;
             height: 16px;
@@ -1817,8 +1588,7 @@
                 flex-direction: column;
                 align-items: center;
             }
-            .compare-now-btn,
-            .clear-selection-btn {
+            .compare-now-btn, .clear-selection-btn {
                 width: 100%;
                 max-width: 300px;
             }
@@ -1856,7 +1626,6 @@
         .page-content {
             display: none;
         }
-
         .page-content.active {
             display: block;
         }
@@ -1878,7 +1647,6 @@
             transform: translateY(-20px);
             transition: all 0.4s ease;
         }
-
         .error-popup.visible {
             opacity: 1;
             transform: translateY(0);
@@ -2127,7 +1895,6 @@
                         </tbody>
                     </table>
                 </section>
-
                 <!-- Dynamic details mount point -->
                 <div id="detailRoot" style="display:none;"></div>
             </main>
@@ -2242,7 +2009,6 @@
             <a href="#" class="btn back" id="backToResults">← Back to Results</a>
             <h1 id="hospitalName">Hospital Name Loading...</h1>
         </div>
-
         <div class="hospital-title"></div>
 
         <section class="detail-hero-wrap">
@@ -2418,23 +2184,22 @@
                     e.preventDefault();
                     const page = this.getAttribute('data-page');
                     showPage(page);
-                    
                     // Close mobile nav if open
                     if (document.body.classList.contains('mobile-nav-open')) {
                         toggleMobileNavigation();
                     }
                 });
             });
-            
+
             // Set up back button for details page
             document.getElementById('backToResults').addEventListener('click', function(e) {
                 e.preventDefault();
                 showPage('index');
             });
-            
+
             // Initialize the default page
             showPage('index');
-            
+
             // Load hospital data and initialize the app
             loadHospitalData();
             initMobileNavigation();
@@ -2442,20 +2207,18 @@
             initViewToggleButtons();
             initFilterButtons();
         });
-        
+
         function showPage(page) {
             // Hide all pages
             const pages = document.querySelectorAll('.page-content');
             pages.forEach(p => p.classList.remove('active'));
-            
+
             // Show the selected page
             const targetPage = document.getElementById(`${page}-page`);
             if (targetPage) {
                 targetPage.classList.add('active');
-                
                 // Update body class for styling
                 document.body.className = `${page}-page`;
-                
                 // Initialize page-specific functionality
                 if (page === 'index') {
                     initIndexPage();
@@ -2464,2054 +2227,258 @@
                 }
             }
         }
-        
+
         // ===============================
         // Data Storage
         // ===============================
         let hospitalData = [];
         let filteredHospitalData = [];
-        
+
         // ===============================
         // Load JSON Data
         // ===============================
         async function loadHospitalData() {
             try {
-                // In a real implementation, this would fetch from your JSON file
-                // For this demo, we'll use a small sample dataset
+                // Sample hospital data - in production this would come from an API or JSON file
                 hospitalData = [
                     {
-    "Sheet1": [
-        {
-            "Hospital_ID": 1,
-            "Hospital_Name": "Appling Hospital",
-            "Street_Address": "163 E Tollison St",
-            "City": "Baxley",
-            "State": "GA",
-            "ZIP_Code": 31513,
-            "County": "Appling",
-            "County_FIPS": 13001,
-            "Latitude": 33.54609,
-            "Longitude": -82.3163154,
-            "Urban_Rural": "Rural",
-            "In_System": 0,
-            "System_Name": "Appling Healthcare",
-            "Ownership_Type": "Government",
-            "Care_Level": "Primary",
-            "Bed_Size": 64,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.applinghealthcare.org",
-            "Balance_Growth": 4,
-            "Transparency": 4,
-            "Fiscal_Health": 3,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 2,
-            "Hospital_Name": "Bacon County Hospital",
-            "Street_Address": "302 S Wayne St",
-            "City": "Alma",
-            "State": "GA",
-            "ZIP_Code": 31510,
-            "County": "Bacon",
-            "County_FIPS": 13005,
-            "Latitude": 31.538626,
-            "Longitude": -82.459238,
-            "Urban_Rural": "Rural",
-            "In_System": 0,
-            "System_Name": "Bacon County Hospital and Health System",
-            "Ownership_Type": "Government",
-            "Care_Level": "Primary",
-            "Bed_Size": 25,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.baconcountyhospital.com",
-            "Balance_Growth": 3,
-            "Transparency": 4,
-            "Fiscal_Health": 3,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 3,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 3,
-            "Hospital_Name": "Burke Medical Center",
-            "Street_Address": "351 S Liberty St",
-            "City": "Waynesboro",
-            "State": "GA",
-            "ZIP_Code": 30830,
-            "County": "Burke",
-            "County_FIPS": 13033,
-            "Latitude": 33.0833,
-            "Longitude": -82.0134,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Burke Health",
-            "Ownership_Type": "Government",
-            "Care_Level": "Primary",
-            "Bed_Size": 40,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.burkemedicalcenter.com",
-            "Balance_Growth": 3,
-            "Transparency": 4,
-            "Fiscal_Health": 3,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 3,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 4,
-            "Hospital_Name": "Community General Hospital",
-            "Street_Address": "123 Main Street",
-            "City": "Atlanta",
-            "State": "GA",
-            "ZIP_Code": 30301,
-            "County": "Fulton",
-            "County_FIPS": 13121,
-            "Latitude": 33.749,
-            "Longitude": -84.388,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Independent Community Hospital",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 50,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.example.com",
-            "Balance_Growth": 3,
-            "Transparency": 3,
-            "Fiscal_Health": 3,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 3,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 5,
-            "Hospital_Name": "Piedmont Hospital",
-            "Street_Address": "1968 Peachtree Rd NW",
-            "City": "Atlanta",
-            "State": "GA",
-            "ZIP_Code": 30309,
-            "County": "Fulton",
-            "County_FIPS": 13121,
-            "Latitude": 33.80915,
-            "Longitude": -84.39547,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "Piedmont Healthcare",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Regional Referral",
-            "Bed_Size": 643,
-            "Size_Group": "XXL",
-            "Hospital_URL": "https://www.piedmont.org/locations/piedmont-atlanta",
-            "Balance_Growth": 5,
-            "Transparency": 5,
-            "Fiscal_Health": 4,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 4,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 6,
-            "Hospital_Name": "Phoebe Putney Memorial Hospital",
-            "Street_Address": "417 W 3rd Ave",
-            "City": "Albany",
-            "State": "GA",
-            "ZIP_Code": 31701,
-            "County": "Dougherty",
-            "County_FIPS": 13095,
-            "Latitude": 31.59022,
-            "Longitude": -84.15779,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "Phoebe Putney Health System",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Regional Referral",
-            "Bed_Size": 691,
-            "Size_Group": "XXL",
-            "Hospital_URL": "https://www.phoebehealth.com",
-            "Balance_Growth": 4,
-            "Transparency": 4,
-            "Fiscal_Health": 4,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 7,
-            "Hospital_Name": "Northside Hospital Atlanta",
-            "Street_Address": "1000 Johnson Ferry Rd NE",
-            "City": "Atlanta",
-            "State": "GA",
-            "ZIP_Code": 30342,
-            "County": "Fulton",
-            "County_FIPS": 13121,
-            "Latitude": 33.908404,
-            "Longitude": -84.354543,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "Northside Hospital",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Regional Referral",
-            "Bed_Size": 685,
-            "Size_Group": "XXL",
-            "Hospital_URL": "https://www.northside.com/locations/atlanta",
-            "Balance_Growth": 5,
-            "Transparency": 4,
-            "Fiscal_Health": 4,
-            "Staffing": 5,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 8,
-            "Hospital_Name": "Tanner Medical Center – Villa Rica",
-            "Street_Address": "601 Dallas Hwy",
-            "City": "Villa Rica",
-            "State": "GA",
-            "ZIP_Code": 30180,
-            "County": "Carroll",
-            "County_FIPS": 13045,
-            "Latitude": 33.56995,
-            "Longitude": -85.07421,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "Tanner Health System",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Specialty",
-            "Bed_Size": 53,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.tanner.org",
-            "Balance_Growth": 4,
-            "Transparency": 4,
-            "Fiscal_Health": 3,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 3,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 9,
-            "Hospital_Name": "Emory University Hospital",
-            "Street_Address": "1364 Clifton Rd NE",
-            "City": "Atlanta",
-            "State": "GA",
-            "ZIP_Code": 30322,
-            "County": "DeKalb",
-            "County_FIPS": 13089,
-            "Latitude": 33.7954,
-            "Longitude": -84.3202,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "Emory Healthcare",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Regional Referral",
-            "Bed_Size": 733,
-            "Size_Group": "XXL",
-            "Hospital_URL": "https://www.emoryhealthcare.org",
-            "Balance_Growth": 5,
-            "Transparency": 5,
-            "Fiscal_Health": 5,
-            "Staffing": 5,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 5,
-            "CBS_Category_Rating": 5,
-            "Financial_Burden": 4,
-            "Charity_Care": 4,
-            "Medical_Debt": 4,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 5,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 5,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 10,
-            "Hospital_Name": "St. Mary's Hospital",
-            "Street_Address": "1230 Baxter St",
-            "City": "Athens",
-            "State": "GA",
-            "ZIP_Code": 30606,
-            "County": "Clarke",
-            "County_FIPS": 13059,
-            "Latitude": 34.16608,
-            "Longitude": -83.4013,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "St. Mary's Healthcare System",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Regional Referral",
-            "Bed_Size": 196,
-            "Size_Group": "L",
-            "Hospital_URL": "https://www.stmaryshealthcaresystem.org",
-            "Balance_Growth": 4,
-            "Transparency": 4,
-            "Fiscal_Health": 4,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 11,
-            "Hospital_Name": "Wellstar Kennestone Hospital",
-            "Street_Address": "677 Church St NE",
-            "City": "Marietta",
-            "State": "GA",
-            "ZIP_Code": 30060,
-            "County": "Cobb",
-            "County_FIPS": 13067,
-            "Latitude": 33.96795,
-            "Longitude": -84.55135,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "Wellstar Health System",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Regional Referral",
-            "Bed_Size": 633,
-            "Size_Group": "XXL",
-            "Hospital_URL": "https://www.wellstar.org",
-            "Balance_Growth": 5,
-            "Transparency": 4,
-            "Fiscal_Health": 4,
-            "Staffing": 5,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 4,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 12,
-            "Hospital_Name": "Candler County Hospital",
-            "Street_Address": "400 Cedar St",
-            "City": "Metter",
-            "State": "GA",
-            "ZIP_Code": 30439,
-            "County": "Candler",
-            "County_FIPS": 13043,
-            "Latitude": 32.0809,
-            "Longitude": -81.0912,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Candler County Hospital Authority",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 25,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Candler+County+Hospital+Metter+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 3,
-            "Fiscal_Health": 4,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 5,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 5,
-            "Charity_Care": 5,
-            "Medical_Debt": 5,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 5,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 13,
-            "Hospital_Name": "Clinch Memorial Hospital",
-            "Street_Address": "1050 Valdosta Hwy",
-            "City": "Homerville",
-            "State": "GA",
-            "ZIP_Code": 31634,
-            "County": "Clinch",
-            "County_FIPS": 13113,
-            "Latitude": 31.0339,
-            "Longitude": -82.76445,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "South Georgia Medical Center",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 25,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Clinch+Memorial+Hospital+Homerville+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 4,
-            "Fiscal_Health": 4,
-            "Staffing": 5,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 5,
-            "Strategic_Use": 5,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 5,
-            "Medical_Debt": 4,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 5,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 14,
-            "Hospital_Name": "Coffee Regional Medical Center",
-            "Street_Address": "1101 Ocila Road",
-            "City": "Douglas",
-            "State": "GA",
-            "ZIP_Code": 31533,
-            "County": "Coffee",
-            "County_FIPS": 13159,
-            "Latitude": 31.5047,
-            "Longitude": -82.8586,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Coffee Regional Medical Center",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 82,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Coffee+Regional+Medical+Center+Douglas+GA+hospital",
-            "Balance_Growth": 3,
-            "Transparency": 3,
-            "Fiscal_Health": 3,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 5,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 4,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 5,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 15,
-            "Hospital_Name": "Colquitt Regional Medical Center",
-            "Street_Address": "3131 S Main St",
-            "City": "Moultrie",
-            "State": "GA",
-            "ZIP_Code": 31768,
-            "County": "Colquitt",
-            "County_FIPS": 13071,
-            "Latitude": 31.1621,
-            "Longitude": -83.7921,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Colquitt Regional Health System",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Specialty",
-            "Bed_Size": 155,
-            "Size_Group": "L",
-            "Hospital_URL": "https://www.google.com/search?q=Colquitt+Regional+Medical+Center+Moultrie+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 4,
-            "Fiscal_Health": 3,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 5,
-            "Strategic_Use": 3,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 5,
-            "Charity_Care": 3,
-            "Medical_Debt": 5,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 5,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 16,
-            "Hospital_Name": "Crisp Regional Hospital",
-            "Street_Address": "902 7th St N",
-            "City": "Cordele",
-            "State": "GA",
-            "ZIP_Code": 31015,
-            "County": "Crisp",
-            "County_FIPS": 13191,
-            "Latitude": 31.97761,
-            "Longitude": -83.781268,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Crisp Regional Health Services",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Specialty",
-            "Bed_Size": 211,
-            "Size_Group": "XL",
-            "Hospital_URL": "https://www.google.com/search?q=Crisp+Regional+Hospital+Cordele+GA+hospital",
-            "Balance_Growth": 3,
-            "Transparency": 5,
-            "Fiscal_Health": 3,
-            "Staffing": 5,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 3,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 5,
-            "Medical_Debt": 4,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 5,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 17,
-            "Hospital_Name": "Dodge County Hospital",
-            "Street_Address": "901 Griffin Ave",
-            "City": "Eastman",
-            "State": "GA",
-            "ZIP_Code": 31023,
-            "County": "Dodge",
-            "County_FIPS": 13091,
-            "Latitude": 32.18507,
-            "Longitude": -83.17896,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Dodge County Hospital",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 94,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Dodge+County+Hospital+Eastman+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 3,
-            "Fiscal_Health": 4,
-            "Staffing": 5,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 3,
-            "CBS_Category_Rating": 5,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 18,
-            "Hospital_Name": "Donalsonville Hospital, Inc.",
-            "Street_Address": "102 Hospital Circle",
-            "City": "Donalsonville",
-            "State": "GA",
-            "ZIP_Code": 39845,
-            "County": "Seminole",
-            "County_FIPS": 13135,
-            "Latitude": 31.05102,
-            "Longitude": -84.88167,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Donalsonville Hospital, Inc.",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 61,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Donalsonville+Hospital,+Inc.+Donalsonville+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 3,
-            "Fiscal_Health": 5,
-            "Staffing": 5,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 5,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 5,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 19,
-            "Hospital_Name": "Dorminy Medical Center",
-            "Street_Address": "200 Perry House Rd",
-            "City": "Fitzgerald",
-            "State": "GA",
-            "ZIP_Code": 31750,
-            "County": "Ben Hill",
-            "County_FIPS": 13019,
-            "Latitude": 31.69762,
-            "Longitude": -83.25991,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Dorminy Medical Center",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 75,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Dorminy+Medical+Center+Fitzgerald+GA+hospital",
-            "Balance_Growth": 3,
-            "Transparency": 3,
-            "Fiscal_Health": 3,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 5,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 4,
-            "Charity_Care": 5,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 20,
-            "Hospital_Name": "East Georgia Regional Medical Center",
-            "Street_Address": "1499 Fair Rd",
-            "City": "Statesboro",
-            "State": "GA",
-            "ZIP_Code": 30458,
-            "County": "Bulloch",
-            "County_FIPS": 13031,
-            "Latitude": 32.4488,
-            "Longitude": -81.7832,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Community Health Systems",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 142,
-            "Size_Group": "L",
-            "Hospital_URL": "https://www.google.com/search?q=East+Georgia+Regional+Medical+Center+Statesboro+GA+hospital",
-            "Balance_Growth": 5,
-            "Transparency": 5,
-            "Fiscal_Health": 5,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 5,
-            "Strategic_Use": 5,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 4,
-            "Charity_Care": 4,
-            "Medical_Debt": 5,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 5,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 21,
-            "Hospital_Name": "Effingham Health System",
-            "Street_Address": "459 GA-119",
-            "City": "Springfield",
-            "State": "GA",
-            "ZIP_Code": 31329,
-            "County": "Effingham",
-            "County_FIPS": 13103,
-            "Latitude": 32.36369,
-            "Longitude": -81.32069,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Effingham Health System",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 25,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Effingham+Health+System+Springfield+GA+hospital",
-            "Balance_Growth": 3,
-            "Transparency": 5,
-            "Fiscal_Health": 4,
-            "Staffing": 5,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 5,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 5,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 5,
-            "Charity_Care": 5,
-            "Medical_Debt": 4,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 5,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 22,
-            "Hospital_Name": "Elbert Memorial Hospital",
-            "Street_Address": "4 Medical Dr",
-            "City": "Elberton",
-            "State": "GA",
-            "ZIP_Code": 30635,
-            "County": "Elbert",
-            "County_FIPS": 13105,
-            "Latitude": 34.11332,
-            "Longitude": -82.87487,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Elbert Memorial Hospital",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 25,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Elbert+Memorial+Hospital+Elberton+GA+hospital",
-            "Balance_Growth": 5,
-            "Transparency": 5,
-            "Fiscal_Health": 3,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 5,
-            "CBS_Category_Rating": 5,
-            "Financial_Burden": 4,
-            "Charity_Care": 3,
-            "Medical_Debt": 5,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 23,
-            "Hospital_Name": "Emanuel Medical Center",
-            "Street_Address": "117 Kite Rd",
-            "City": "Swainsboro",
-            "State": "GA",
-            "ZIP_Code": 30401,
-            "County": "Emanuel",
-            "County_FIPS": 13107,
-            "Latitude": 32.59258,
-            "Longitude": -82.34732,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Emanuel Medical Center",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 88,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Emanuel+Medical+Center+Swainsboro+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 3,
-            "Fiscal_Health": 4,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 5,
-            "CBS_Category_Rating": 5,
-            "Financial_Burden": 5,
-            "Charity_Care": 3,
-            "Medical_Debt": 4,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 5,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 5,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 24,
-            "Hospital_Name": "Evans Memorial Hospital",
-            "Street_Address": "200 N River St",
-            "City": "Claxton",
-            "State": "GA",
-            "ZIP_Code": 30417,
-            "County": "Evans",
-            "County_FIPS": 13109,
-            "Latitude": 32.1589,
-            "Longitude": -81.9043,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Evans Memorial Hospital",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 49,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Evans+Memorial+Hospital+Claxton+GA+hospital",
-            "Balance_Growth": 3,
-            "Transparency": 4,
-            "Fiscal_Health": 4,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 5,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 5,
-            "Financial_Burden": 5,
-            "Charity_Care": 3,
-            "Medical_Debt": 5,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 5,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 25,
-            "Hospital_Name": "Irwin County Hospital",
-            "Street_Address": "710 N Irwin Ave",
-            "City": "Ocilla",
-            "State": "GA",
-            "ZIP_Code": 31774,
-            "County": "Irwin",
-            "County_FIPS": 13155,
-            "Latitude": 31.60329,
-            "Longitude": -83.25134,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Irwin County Hospital",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 34,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Irwin+County+Hospital+Ocilla+GA+hospital",
-            "Balance_Growth": 5,
-            "Transparency": 5,
-            "Fiscal_Health": 3,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 5,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 5,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 4,
-            "Medical_Debt": 4,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 5,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 5,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 26,
-            "Hospital_Name": "Jasper Memorial Hospital",
-            "Street_Address": "898 College St",
-            "City": "Monticello",
-            "State": "GA",
-            "ZIP_Code": 31064,
-            "County": "Jasper",
-            "County_FIPS": 13159,
-            "Latitude": 33.31422,
-            "Longitude": -83.6864,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Jasper Health Services, Inc.",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 17,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Jasper+Memorial+Hospital+Monticello+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 5,
-            "Fiscal_Health": 3,
-            "Staffing": 5,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 5,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 5,
-            "Charity_Care": 5,
-            "Medical_Debt": 5,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 27,
-            "Hospital_Name": "Jeff Davis Hospital",
-            "Street_Address": "163 S Tallahassee St",
-            "City": "Hazlehurst",
-            "State": "GA",
-            "ZIP_Code": 31539,
-            "County": "Jeff Davis",
-            "County_FIPS": 13161,
-            "Latitude": 31.85727,
-            "Longitude": -82.60728,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Jeff Davis Hospital",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 25,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Jeff+Davis+Hospital+Hazlehurst+GA+hospital",
-            "Balance_Growth": 5,
-            "Transparency": 5,
-            "Fiscal_Health": 4,
-            "Staffing": 5,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 3,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 4,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 5,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 28,
-            "Hospital_Name": "Jefferson Hospital",
-            "Street_Address": "1067 Peachtree St",
-            "City": "Louisville",
-            "State": "GA",
-            "ZIP_Code": 30434,
-            "County": "Jefferson",
-            "County_FIPS": 13163,
-            "Latitude": 32.121,
-            "Longitude": -82.412,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Jefferson Hospital",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 37,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Jefferson+Hospital+Louisville+GA+hospital",
-            "Balance_Growth": 5,
-            "Transparency": 4,
-            "Fiscal_Health": 3,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 5,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 5,
-            "Charity_Care": 4,
-            "Medical_Debt": 5,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 29,
-            "Hospital_Name": "Liberty Regional Medical Center",
-            "Street_Address": "462 Elma G Miles Pkwy",
-            "City": "Hinesville",
-            "State": "GA",
-            "ZIP_Code": 31313,
-            "County": "Liberty",
-            "County_FIPS": 13179,
-            "Latitude": 31.8469,
-            "Longitude": -81.5959,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Liberty Regional Medical Center",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 25,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Liberty+Regional+Medical+Center+Hinesville+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 5,
-            "Fiscal_Health": 3,
-            "Staffing": 5,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 5,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 5,
-            "Charity_Care": 3,
-            "Medical_Debt": 4,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 5,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 5,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 30,
-            "Hospital_Name": "Miller County Hospital",
-            "Street_Address": "208 N Cuthbert St",
-            "City": "Colquitt",
-            "State": "GA",
-            "ZIP_Code": 39837,
-            "County": "Miller",
-            "County_FIPS": 13187,
-            "Latitude": 31.1713,
-            "Longitude": -84.7338,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Miller County Hospital",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 25,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Miller+County+Hospital+Colquitt+GA+hospital",
-            "Balance_Growth": 5,
-            "Transparency": 4,
-            "Fiscal_Health": 4,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 3,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 5,
-            "Charity_Care": 3,
-            "Medical_Debt": 5,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 5,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 5,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 31,
-            "Hospital_Name": "Monroe County Hospital",
-            "Street_Address": "88 Martin Luther King Jr Dr",
-            "City": "Forsyth",
-            "State": "GA",
-            "ZIP_Code": 31029,
-            "County": "Monroe",
-            "County_FIPS": 13207,
-            "Latitude": 33.0309,
-            "Longitude": -83.945,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Monroe County Hospital",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 25,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Monroe+County+Hospital+Forsyth+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 4,
-            "Fiscal_Health": 3,
-            "Staffing": 5,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 5,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 5,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 5,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 32,
-            "Hospital_Name": "Morgan Medical Center",
-            "Street_Address": "1740 Lions Club Rd",
-            "City": "Madison",
-            "State": "GA",
-            "ZIP_Code": 30650,
-            "County": "Morgan",
-            "County_FIPS": 13189,
-            "Latitude": 33.5849,
-            "Longitude": -83.4807,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Morgan Medical Center",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 25,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Morgan+Medical+Center+Madison+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 4,
-            "Fiscal_Health": 3,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 5,
-            "Quality_of_CBS": 5,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 3,
-            "Charity_Care": 5,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 5,
-            "Overall_Star_Rating": 5,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 33,
-            "Hospital_Name": "Shepherd Center",
-            "Street_Address": "2020 Peachtree Rd NW",
-            "City": "Atlanta",
-            "State": "GA",
-            "ZIP_Code": 30309,
-            "County": "Fulton",
-            "County_FIPS": 13121,
-            "Latitude": 33.749,
-            "Longitude": -84.388,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Shepherd Center",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Specialty",
-            "Bed_Size": 152,
-            "Size_Group": "L",
-            "Hospital_URL": "https://www.google.com/search?q=Shepherd+Center+Atlanta+GA+hospital",
-            "Balance_Growth": 5,
-            "Transparency": 3,
-            "Fiscal_Health": 5,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 5,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 4,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 34,
-            "Hospital_Name": "Southwest Georgia Regional Medical Center",
-            "Street_Address": "361 Randolph St",
-            "City": "Cuthbert",
-            "State": "GA",
-            "ZIP_Code": 39840,
-            "County": "Randolph",
-            "County_FIPS": 13243,
-            "Latitude": 31.7716,
-            "Longitude": -84.7887,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Southwest Georgia Health System",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 25,
-            "Size_Group": "L",
-            "Hospital_URL": "https://www.google.com/search?q=Southwest+Georgia+Regional+Medical+Center+Cuthbert+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 3,
-            "Fiscal_Health": 4,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 5,
-            "Charity_Care": 4,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 5,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 35,
-            "Hospital_Name": "Stephens County Hospital",
-            "Street_Address": "163 Hospital Dr",
-            "City": "Toccoa",
-            "State": "GA",
-            "ZIP_Code": 30577,
-            "County": "Stephens",
-            "County_FIPS": 13257,
-            "Latitude": 34.5787,
-            "Longitude": -83.3324,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Stephens County Hospital",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 96,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Stephens+County+Hospital+Toccoa+GA+hospital",
-            "Balance_Growth": 3,
-            "Transparency": 4,
-            "Fiscal_Health": 3,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 3,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 4,
-            "Charity_Care": 5,
-            "Medical_Debt": 5,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 5,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 36,
-            "Hospital_Name": "Taylor Regional Hospital",
-            "Street_Address": "222 Perry Hwy",
-            "City": "Hawkinsville",
-            "State": "GA",
-            "ZIP_Code": 31036,
-            "County": "Taylor",
-            "County_FIPS": 13235,
-            "Latitude": 32.4745,
-            "Longitude": -83.7406,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Taylor Regional Hospital",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Specialty",
-            "Bed_Size": 151,
-            "Size_Group": "L",
-            "Hospital_URL": "https://www.google.com/search?q=Taylor+Regional+Hospital+Hawkinsville+GA+hospital",
-            "Balance_Growth": 3,
-            "Transparency": 3,
-            "Fiscal_Health": 5,
-            "Staffing": 5,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 5,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 3,
-            "CBS_Category_Rating": 5,
-            "Financial_Burden": 4,
-            "Charity_Care": 4,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 5,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 37,
-            "Hospital_Name": "Tift Regional Medical Center",
-            "Street_Address": "901 East 18th St",
-            "City": "Tifton",
-            "State": "GA",
-            "ZIP_Code": 31794,
-            "County": "Tift",
-            "County_FIPS": 13277,
-            "Latitude": 31.4605,
-            "Longitude": -83.5228,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Tift Regional Health System, Inc.",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Specialty",
-            "Bed_Size": 181,
-            "Size_Group": "XL",
-            "Hospital_URL": "https://www.google.com/search?q=Tift+Regional+Medical+Center+Tifton+GA+hospital",
-            "Balance_Growth": 5,
-            "Transparency": 3,
-            "Fiscal_Health": 5,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 5,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 3,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 4,
-            "Charity_Care": 4,
-            "Medical_Debt": 5,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 5,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 38,
-            "Hospital_Name": "Upson Regional Medical Center",
-            "Street_Address": "801 W Gordon St",
-            "City": "Thomaston",
-            "State": "GA",
-            "ZIP_Code": 30286,
-            "County": "Upson",
-            "County_FIPS": 13293,
-            "Latitude": 32.8818,
-            "Longitude": -84.3278,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Upson Regional Medical Center",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 115,
-            "Size_Group": "L",
-            "Hospital_URL": "https://www.google.com/search?q=Upson+Regional+Medical+Center+Thomaston+GA+hospital",
-            "Balance_Growth": 5,
-            "Transparency": 5,
-            "Fiscal_Health": 4,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 5,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 4,
-            "Medical_Debt": 5,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 5,
-            "Overall_Star_Rating": 5,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 39,
-            "Hospital_Name": "Warm Springs Medical Center",
-            "Street_Address": "5995 Spring St",
-            "City": "Warm Springs",
-            "State": "GA",
-            "ZIP_Code": 31830,
-            "County": "Meriwether",
-            "County_FIPS": 13189,
-            "Latitude": 32.8944,
-            "Longitude": -84.6786,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Warm Springs Medical Center",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 104,
-            "Size_Group": "L",
-            "Hospital_URL": "https://www.google.com/search?q=Warm+Springs+Medical+Center+Warm+Springs+GA+hospital",
-            "Balance_Growth": 3,
-            "Transparency": 3,
-            "Fiscal_Health": 4,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 5,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 5,
-            "Financial_Burden": 5,
-            "Charity_Care": 3,
-            "Medical_Debt": 5,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 5,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 40,
-            "Hospital_Name": "Washington County Regional Medical Center",
-            "Street_Address": "610 Sparta Rd",
-            "City": "Sandersville",
-            "State": "GA",
-            "ZIP_Code": 31082,
-            "County": "Washington",
-            "County_FIPS": 13181,
-            "Latitude": 32.9956,
-            "Longitude": -82.8044,
-            "Urban_Rural": "Urban",
-            "In_System": 0,
-            "System_Name": "Washington County Regional Medical Center",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Primary",
-            "Bed_Size": 56,
-            "Size_Group": "S",
-            "Hospital_URL": "https://www.google.com/search?q=Washington+County+Regional+Medical+Center+Sandersville+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 5,
-            "Fiscal_Health": 5,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 5,
-            "Strategic_Use": 5,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 5,
-            "Charity_Care": 3,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 5,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 5,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 5,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 41,
-            "Hospital_Name": "Hamilton Medical Center",
-            "Street_Address": "1200 MEMORIAL DRIVE",
-            "City": "Dalton",
-            "State": "GA",
-            "ZIP_Code": 30720,
-            "County": "Whitfield",
-            "County_FIPS": 13313,
-            "Latitude": 34.7889,
-            "Longitude": -84.985,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "Hamilton Health Care System",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Acute Care",
-            "Bed_Size": 177,
-            "Size_Group": "L",
-            "Hospital_URL": "https://www.google.com/search?q=Hamilton+Medical+Center+Dalton+GA+hospital",
-            "Balance_Growth": 3,
-            "Transparency": 3,
-            "Fiscal_Health": 5,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 3,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 5,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 42,
-            "Hospital_Name": "Memorial Satilla Health",
-            "Street_Address": "1900 TEBEAU STREET",
-            "City": "Waycross",
-            "State": "GA",
-            "ZIP_Code": 31501,
-            "County": "Ware",
-            "County_FIPS": 13305,
-            "Latitude": 31.2249,
-            "Longitude": -82.348,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "HCA Healthcare",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Acute Care",
-            "Bed_Size": 345,
-            "Size_Group": "XXL",
-            "Hospital_URL": "https://www.google.com/search?q=Memorial+Satilla+Health+Waycross+GA+hospital",
-            "Balance_Growth": 3,
-            "Transparency": 3,
-            "Fiscal_Health": 4,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 5,
-            "Quality_of_CBS": 5,
-            "Strategic_Use": 3,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 4,
-            "Charity_Care": 4,
-            "Medical_Debt": 5,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 43,
-            "Hospital_Name": "Northside Hospital Forsyth",
-            "Street_Address": "1200 NORTHSIDE FORSYTH DRIVE",
-            "City": "Cumming",
-            "State": "GA",
-            "ZIP_Code": 30041,
-            "County": "Forsyth",
-            "County_FIPS": 13117,
-            "Latitude": 34.2073,
-            "Longitude": -84.1402,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "Northside Hospital System",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Acute Care",
-            "Bed_Size": 181,
-            "Size_Group": "L",
-            "Hospital_URL": "https://www.google.com/search?q=Northside+Hospital+Forsyth+Cumming+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 4,
-            "Fiscal_Health": 4,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 4,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 4,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 44,
-            "Hospital_Name": "Northside Hospital Cherokee",
-            "Street_Address": "450 NORTHSIDE CHEROKEE BOULEVARD",
-            "City": "Canton",
-            "State": "GA",
-            "ZIP_Code": 30115,
-            "County": "Cherokee",
-            "County_FIPS": 13057,
-            "Latitude": 34.2368,
-            "Longitude": -84.4908,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "Northside Hospital System",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Acute Care",
-            "Bed_Size": 146,
-            "Size_Group": "L",
-            "Hospital_URL": "https://www.google.com/search?q=Northside+Hospital+Cherokee+Canton+GA+hospital",
-            "Balance_Growth": 3,
-            "Transparency": 3,
-            "Fiscal_Health": 4,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 3,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 5,
-            "Charity_Care": 5,
-            "Medical_Debt": 4,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 45,
-            "Hospital_Name": "Tanner Medical Center - Carrollton",
-            "Street_Address": "705 DIXIE STREET",
-            "City": "Carrollton",
-            "State": "GA",
-            "ZIP_Code": 30117,
-            "County": "Carroll",
-            "County_FIPS": 13045,
-            "Latitude": 33.5707,
-            "Longitude": -85.0732,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "Tanner Health System",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Acute Care",
-            "Bed_Size": 263,
-            "Size_Group": "XL",
-            "Hospital_URL": "https://www.google.com/search?q=Tanner+Medical+Center+-+Carrollton+Carrollton+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 3,
-            "Fiscal_Health": 4,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 4,
-            "Charity_Care": 4,
-            "Medical_Debt": 5,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 5,
-            "Pay_Equity_Ratio": 4,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 46,
-            "Hospital_Name": "Tanner Medical Center - Villa Rica",
-            "Street_Address": "601 DALLAS HIGHWAY",
-            "City": "Villa Rica",
-            "State": "GA",
-            "ZIP_Code": 30180,
-            "County": "Carroll",
-            "County_FIPS": 13045,
-            "Latitude": 33.7324,
-            "Longitude": -84.919,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "Tanner Health System",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Acute Care",
-            "Bed_Size": 95,
-            "Size_Group": "L",
-            "Hospital_URL": "https://www.google.com/search?q=Tanner+Medical+Center+-+Villa+Rica+Villa+Rica+GA+hospital",
-            "Balance_Growth": 5,
-            "Transparency": 5,
-            "Fiscal_Health": 3,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 5,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 4,
-            "Charity_Care": 4,
-            "Medical_Debt": 4,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 47,
-            "Hospital_Name": "Wellstar West Georgia Medical Center",
-            "Street_Address": "1514 VERNON ROAD",
-            "City": "Lagrange",
-            "State": "GA",
-            "ZIP_Code": 30240,
-            "County": "Troup",
-            "County_FIPS": 13285,
-            "Latitude": 33.0454,
-            "Longitude": -85.031,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "Wellstar Health System",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Acute Care",
-            "Bed_Size": 177,
-            "Size_Group": "L",
-            "Hospital_URL": "https://www.google.com/search?q=Wellstar+West+Georgia+Medical+Center+Lagrange+GA+hospital",
-            "Balance_Growth": 3,
-            "Transparency": 3,
-            "Fiscal_Health": 5,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 5,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 3,
-            "Charity_Care": 4,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 3,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 4,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 48,
-            "Hospital_Name": "Piedmont Newton",
-            "Street_Address": "5126 HOSPITAL DRIVE NE",
-            "City": "Covington",
-            "State": "GA",
-            "ZIP_Code": 30014,
-            "County": "Newton",
-            "County_FIPS": 13217,
-            "Latitude": 33.6018,
-            "Longitude": -83.8487,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "Piedmont Healthcare",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Acute Care",
-            "Bed_Size": 196,
-            "Size_Group": "XL",
-            "Hospital_URL": "https://www.google.com/search?q=Piedmont+Newton+Covington+GA+hospital",
-            "Balance_Growth": 5,
-            "Transparency": 3,
-            "Fiscal_Health": 4,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 5,
-            "CBS_Category_Rating": 3,
-            "Financial_Burden": 3,
-            "Charity_Care": 3,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 4,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 3,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 4,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 49,
-            "Hospital_Name": "AdventHealth Gordon",
-            "Street_Address": "1035 RED BUD ROAD",
-            "City": "Calhoun",
-            "State": "GA",
-            "ZIP_Code": 30701,
-            "County": "Gordon",
-            "County_FIPS": 13129,
-            "Latitude": 34.5103,
-            "Longitude": -84.931,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "AdventHealth",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Acute Care",
-            "Bed_Size": 289,
-            "Size_Group": "XL",
-            "Hospital_URL": "https://www.google.com/search?q=AdventHealth+Gordon+Calhoun+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 4,
-            "Fiscal_Health": 3,
-            "Staffing": 4,
-            "FTIH_Category_Rating": 4,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 3,
-            "Charity_Care": 4,
-            "Medical_Debt": 4,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 3,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 3,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        },
-        {
-            "Hospital_ID": 50,
-            "Hospital_Name": "Candler Hospital",
-            "Street_Address": "5353 REYNOLDS STREET",
-            "City": "Savannah",
-            "State": "GA",
-            "ZIP_Code": 31412,
-            "County": "Chatham",
-            "County_FIPS": 13051,
-            "Latitude": 32.0809,
-            "Longitude": -81.0912,
-            "Urban_Rural": "Urban",
-            "In_System": 1,
-            "System_Name": "St. Joseph's / Candler Health System",
-            "Ownership_Type": "Nonprofit",
-            "Care_Level": "Acute Care",
-            "Bed_Size": 162,
-            "Size_Group": "L",
-            "Hospital_URL": "https://www.google.com/search?q=Candler+Hospital+Savannah+GA+hospital",
-            "Balance_Growth": 4,
-            "Transparency": 3,
-            "Fiscal_Health": 3,
-            "Staffing": 3,
-            "FTIH_Category_Rating": 3,
-            "Tax_Benefit": 4,
-            "Quality_of_CBS": 3,
-            "Strategic_Use": 4,
-            "CBS_Category_Rating": 4,
-            "Financial_Burden": 4,
-            "Charity_Care": 4,
-            "Medical_Debt": 3,
-            "HAB_Category_Rating": 3,
-            "Range_of_Services": 4,
-            "Demographic_Alignment": 4,
-            "Workforce_Training": 4,
-            "Pay_Equity_Ratio": 5,
-            "HASR_Category_Rating": 3,
-            "Overall_Star_Rating": 3,
-            "Services_Offered": ""
-        }
-    ]
-}
+                        "Hospital_ID": 1,
+                        "Hospital_Name": "Appling Hospital",
+                        "Street_Address": "163 E Tollison St",
+                        "City": "Baxley",
+                        "State": "GA",
+                        "ZIP_Code": 31513,
+                        "County": "Appling",
+                        "County_FIPS": 13001,
+                        "Latitude": 33.54609,
+                        "Longitude": -82.3163154,
+                        "Urban_Rural": "Rural",
+                        "In_System": 0,
+                        "System_Name": "Appling Healthcare",
+                        "Ownership_Type": "Government",
+                        "Care_Level": "Primary",
+                        "Bed_Size": 64,
+                        "Size_Group": "S",
+                        "Hospital_URL": "https://www.applinghealthcare.org",
+                        "Balance_Growth": 4,
+                        "Transparency": 4,
+                        "Fiscal_Health": 3,
+                        "Staffing": 4,
+                        "FTIH_Category_Rating": 4,
+                        "Tax_Benefit": 3,
+                        "Quality_of_CBS": 3,
+                        "Strategic_Use": 4,
+                        "CBS_Category_Rating": 4,
+                        "Financial_Burden": 3,
+                        "Charity_Care": 3,
+                        "Medical_Debt": 3,
+                        "HAB_Category_Rating": 4,
+                        "Range_of_Services": 3,
+                        "Demographic_Alignment": 4,
+                        "Workforce_Training": 3,
+                        "Pay_Equity_Ratio": 4,
+                        "HASR_Category_Rating": 4,
+                        "Overall_Star_Rating": 3,
+                        "Services_Offered": ""
+                    },
+                    {
+                        "Hospital_ID": 2,
+                        "Hospital_Name": "Bacon County Hospital",
+                        "Street_Address": "302 S Wayne St",
+                        "City": "Alma",
+                        "State": "GA",
+                        "ZIP_Code": 31510,
+                        "County": "Bacon",
+                        "County_FIPS": 13005,
+                        "Latitude": 31.538626,
+                        "Longitude": -82.459238,
+                        "Urban_Rural": "Rural",
+                        "In_System": 0,
+                        "System_Name": "Bacon County Hospital and Health System",
+                        "Ownership_Type": "Government",
+                        "Care_Level": "Primary",
+                        "Bed_Size": 25,
+                        "Size_Group": "S",
+                        "Hospital_URL": "https://www.baconcountyhospital.com",
+                        "Balance_Growth": 3,
+                        "Transparency": 4,
+                        "Fiscal_Health": 3,
+                        "Staffing": 3,
+                        "FTIH_Category_Rating": 3,
+                        "Tax_Benefit": 3,
+                        "Quality_of_CBS": 3,
+                        "Strategic_Use": 3,
+                        "CBS_Category_Rating": 3,
+                        "Financial_Burden": 3,
+                        "Charity_Care": 3,
+                        "Medical_Debt": 3,
+                        "HAB_Category_Rating": 3,
+                        "Range_of_Services": 3,
+                        "Demographic_Alignment": 3,
+                        "Workforce_Training": 3,
+                        "Pay_Equity_Ratio": 3,
+                        "HASR_Category_Rating": 3,
+                        "Overall_Star_Rating": 3,
+                        "Services_Offered": ""
+                    },
+                    {
+                        "Hospital_ID": 5,
+                        "Hospital_Name": "Piedmont Hospital",
+                        "Street_Address": "1968 Peachtree Rd NW",
+                        "City": "Atlanta",
+                        "State": "GA",
+                        "ZIP_Code": 30309,
+                        "County": "Fulton",
+                        "County_FIPS": 13121,
+                        "Latitude": 33.80915,
+                        "Longitude": -84.39547,
+                        "Urban_Rural": "Urban",
+                        "In_System": 1,
+                        "System_Name": "Piedmont Healthcare",
+                        "Ownership_Type": "Nonprofit",
+                        "Care_Level": "Regional Referral",
+                        "Bed_Size": 643,
+                        "Size_Group": "XXL",
+                        "Hospital_URL": "https://www.piedmont.org/locations/piedmont-atlanta",
+                        "Balance_Growth": 5,
+                        "Transparency": 5,
+                        "Fiscal_Health": 4,
+                        "Staffing": 4,
+                        "FTIH_Category_Rating": 5,
+                        "Tax_Benefit": 4,
+                        "Quality_of_CBS": 4,
+                        "Strategic_Use": 4,
+                        "CBS_Category_Rating": 4,
+                        "Financial_Burden": 3,
+                        "Charity_Care": 4,
+                        "Medical_Debt": 3,
+                        "HAB_Category_Rating": 4,
+                        "Range_of_Services": 4,
+                        "Demographic_Alignment": 4,
+                        "Workforce_Training": 4,
+                        "Pay_Equity_Ratio": 4,
+                        "HASR_Category_Rating": 4,
+                        "Overall_Star_Rating": 4,
+                        "Services_Offered": ""
+                    },
+                    {
+                        "Hospital_ID": 9,
+                        "Hospital_Name": "Emory University Hospital",
+                        "Street_Address": "1364 Clifton Rd NE",
+                        "City": "Atlanta",
+                        "State": "GA",
+                        "ZIP_Code": 30322,
+                        "County": "DeKalb",
+                        "County_FIPS": 13089,
+                        "Latitude": 33.7954,
+                        "Longitude": -84.3202,
+                        "Urban_Rural": "Urban",
+                        "In_System": 1,
+                        "System_Name": "Emory Healthcare",
+                        "Ownership_Type": "Nonprofit",
+                        "Care_Level": "Regional Referral",
+                        "Bed_Size": 733,
+                        "Size_Group": "XXL",
+                        "Hospital_URL": "https://www.emoryhealthcare.org",
+                        "Balance_Growth": 5,
+                        "Transparency": 5,
+                        "Fiscal_Health": 5,
+                        "Staffing": 5,
+                        "FTIH_Category_Rating": 5,
+                        "Tax_Benefit": 4,
+                        "Quality_of_CBS": 4,
+                        "Strategic_Use": 5,
+                        "CBS_Category_Rating": 5,
+                        "Financial_Burden": 4,
+                        "Charity_Care": 4,
+                        "Medical_Debt": 4,
+                        "HAB_Category_Rating": 5,
+                        "Range_of_Services": 5,
+                        "Demographic_Alignment": 5,
+                        "Workforce_Training": 5,
+                        "Pay_Equity_Ratio": 5,
+                        "HASR_Category_Rating": 5,
+                        "Overall_Star_Rating": 4,
+                        "Services_Offered": ""
+                    }
+                ];
 
-                
+                // Transform the data to match what your code expects
+                hospitalData = hospitalData.map(hospital => ({
+                    // Map to expected property names
+                    RECORD_ID: hospital.Hospital_ID,
+                    Name: hospital.Hospital_Name,
+                    Address: hospital.Street_Address,
+                    City: hospital.City,
+                    State: hospital.State,
+                    Zip: hospital.ZIP_Code,
+                    County: hospital.County,
+                    Latitude: hospital.Latitude,
+                    Longitude: hospital.Longitude,
+                    
+                    // Map grades - using available data
+                    TIER_1_GRADE_Lown_Composite: convertRatingToGrade(hospital.Overall_Star_Rating),
+                    TIER_2_GRADE_Outcome: convertRatingToGrade(hospital.FTIH_Category_Rating),
+                    TIER_2_GRADE_Value: convertRatingToGrade(hospital.CBS_Category_Rating),
+                    TIER_2_GRADE_Civic: convertRatingToGrade(hospital.HAB_Category_Rating),
+                    TIER_3_GRADE_Pat_Saf: convertRatingToGrade(hospital.HASR_Category_Rating),
+                    TIER_3_GRADE_Pat_Exp: convertRatingToGrade(hospital.Overall_Star_Rating),
+                    
+                    // Map hospital types
+                    TYPE_urban: hospital.Urban_Rural === 'Urban' ? 1 : 0,
+                    TYPE_rural: hospital.Urban_Rural === 'Rural' ? 1 : 0,
+                    TYPE_NonProfit: hospital.Ownership_Type === 'Nonprofit' ? 1 : 0,
+                    TYPE_ForProfit: hospital.Ownership_Type === 'For Profit' ? 1 : 0,
+                    TYPE_HospTyp_CAH: hospital.Care_Level === 'Primary' ? 1 : 0,
+                    TYPE_HospTyp_ACH: hospital.Care_Level === 'Acute Care' ? 1 : 0,
+                    
+                    // Size mapping
+                    Size: hospital.Size_Group ? hospital.Size_Group.toLowerCase() : 'm',
+                    
+                    // System affiliation
+                    HOSPITAL_SYSTEM: hospital.In_System === 1,
+                    
+                    // Keep original data for reference
+                    _original: hospital
+                }));
+
                 filteredHospitalData = [...hospitalData];
                 console.log("Hospital data loaded:", hospitalData.length, "records");
-                
+                console.log("Sample hospital:", hospitalData[0]);
+
                 // Initial render
                 renderHospitals(hospitalData);
                 initHospitalMap(hospitalData);
                 initMobileMap(hospitalData);
-                
+
                 // Initialize mobile UI
                 initMobileUI();
-                
             } catch (err) {
                 console.error("Error loading JSON:", err);
             }
         }
-        
+
+        // Helper function to convert 1-5 ratings to A-F grades
+        function convertRatingToGrade(rating) {
+            if (!rating || rating === 'N/A') return 'N/A';
+            
+            const gradeMap = {
+                5: 'A', 4: 'B', 3: 'C', 2: 'D', 1: 'F'
+            };
+            
+            return gradeMap[rating] || 'N/A';
+        }
+
         // ===============================
         // Mobile Navigation & Filter Functions
         // ===============================
         function initMobileUI() {
             // Initialize mobile event listeners
             initMobileEventListeners();
-            
             // Initialize mobile navigation
             initMobileNavigation();
         }
-        
+
         function initMobileNavigation() {
             const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
             const mobileNavClose = document.querySelector('.mobile-nav-close');
@@ -4519,17 +2486,15 @@
             
             if (mobileNavToggle && mobileNavOverlay) {
                 mobileNavToggle.addEventListener('click', toggleMobileNavigation);
-                
                 if (mobileNavClose) {
                     mobileNavClose.addEventListener('click', toggleMobileNavigation);
                 }
-                
                 mobileNavOverlay.addEventListener('click', function(e) {
                     if (e.target === this) toggleMobileNavigation();
                 });
             }
         }
-        
+
         function toggleMobileNavigation() {
             const body = document.body;
             const overlay = document.querySelector('.mobile-nav-overlay');
@@ -4539,12 +2504,11 @@
             
             body.classList.toggle('mobile-nav-open');
             overlay.style.display = body.classList.contains('mobile-nav-open') ? 'block' : 'none';
-            
             setTimeout(() => {
                 panel.classList.toggle('active');
             }, 10);
         }
-        
+
         function initMobileEventListeners() {
             // Mobile navigation toggle
             document.querySelector('.mobile-nav-toggle')?.addEventListener('click', toggleMobileNavigation);
@@ -4552,78 +2516,78 @@
             document.querySelector('.mobile-nav-overlay')?.addEventListener('click', function(e) {
                 if (e.target === this) toggleMobileNavigation();
             });
-            
+
             // Mobile filter toggle
             document.querySelector('.mobile-filter-toggle')?.addEventListener('click', toggleMobileFilters);
             document.querySelector('.mobile-filter-close')?.addEventListener('click', toggleMobileFilters);
             document.querySelector('.mobile-filter-overlay')?.addEventListener('click', function(e) {
                 if (e.target === this) toggleMobileFilters();
             });
-            
+
             // Mobile filter buttons
             document.getElementById('mobileApplyFiltersBtn')?.addEventListener('click', function() {
                 applyAllFilters();
                 toggleMobileFilters();
             });
-            
+
             document.getElementById('mobileResetFiltersBtn')?.addEventListener('click', function() {
                 resetAllFilters();
                 setTimeout(() => {
                     toggleMobileFilters();
                 }, 100);
             });
-            
+
             document.getElementById('mobileApplyLocationBtn')?.addEventListener('click', function() {
                 applyAllFilters();
                 toggleMobileFilters();
             });
-            
+
             // Mobile view toggle buttons
             const mobileViewSystemsBtn = document.getElementById('mobileViewSystemsBtn');
             const mobileViewIndividualsBtn = document.getElementById('mobileViewIndividualsBtn');
             const mobileFilterCriticalBtn = document.getElementById('mobileFilterCriticalBtn');
             const mobileFilterAcuteBtn = document.getElementById('mobileFilterAcuteBtn');
             const mobileCompareHospitalsBtn = document.getElementById('mobileCompareHospitalsBtn');
-            
+
             if (mobileViewSystemsBtn) {
                 mobileViewSystemsBtn.addEventListener('click', function() {
                     document.getElementById('viewSystemsBtn').click();
                     syncMobileViewButtons();
                 });
             }
-            
+
             if (mobileViewIndividualsBtn) {
                 mobileViewIndividualsBtn.addEventListener('click', function() {
                     document.getElementById('viewIndividualsBtn').click();
                     syncMobileViewButtons();
                 });
             }
-            
+
             if (mobileCompareHospitalsBtn) {
                 mobileCompareHospitalsBtn.addEventListener('click', function() {
                     document.getElementById('compareHospitalsBtn').click();
                     syncMobileViewButtons();
                 });
             }
-            
+
             if (mobileFilterCriticalBtn) {
                 mobileFilterCriticalBtn.addEventListener('click', function() {
                     document.getElementById('filterCriticalBtn').click();
                     syncMobileFilterButtons();
                 });
             }
-            
+
             if (mobileFilterAcuteBtn) {
                 mobileFilterAcuteBtn.addEventListener('click', function() {
                     document.getElementById('filterAcuteBtn').click();
                     syncMobileFilterButtons();
                 });
             }
-            
+
             // Sync checkbox states
             syncFilterInputs();
         }
-        
+
         function syncMobileViewButtons() {
             const viewSystemsBtn = document.getElementById('viewSystemsBtn');
             const viewIndividualsBtn = document.getElementById('viewIndividualsBtn');
@@ -4633,7 +2597,7 @@
             const mobileCompareHospitalsBtn = document.getElementById('mobileCompareHospitalsBtn');
             const individualOptions = document.getElementById('individualOptions');
             const mobileIndividualOptions = document.getElementById('mobileIndividualOptions');
-            
+
             if (viewSystemsBtn && mobileViewSystemsBtn) {
                 if (viewSystemsBtn.classList.contains('active')) {
                     mobileViewSystemsBtn.classList.add('active');
@@ -4653,13 +2617,13 @@
                 }
             }
         }
-        
+
         function syncMobileFilterButtons() {
             const filterCriticalBtn = document.getElementById('filterCriticalBtn');
             const filterAcuteBtn = document.getElementById('filterAcuteBtn');
             const mobileFilterCriticalBtn = document.getElementById('mobileFilterCriticalBtn');
             const mobileFilterAcuteBtn = document.getElementById('mobileFilterAcuteBtn');
-            
+
             if (filterCriticalBtn && mobileFilterCriticalBtn) {
                 if (filterCriticalBtn.classList.contains('active')) {
                     mobileFilterCriticalBtn.classList.add('active');
@@ -4673,7 +2637,7 @@
                 }
             }
         }
-        
+
         function toggleMobileFilters() {
             const body = document.body;
             const overlay = document.querySelector('.mobile-filter-overlay');
@@ -4681,10 +2645,8 @@
             
             body.classList.toggle('mobile-filter-open');
             overlay.style.display = body.classList.contains('mobile-filter-open') ? 'block' : 'none';
-            
             setTimeout(() => {
                 panel.classList.toggle('active');
-                
                 // Sync button states when opening
                 if (body.classList.contains('mobile-filter-open')) {
                     syncMobileViewButtons();
@@ -4693,7 +2655,7 @@
                 }
             }, 10);
         }
-        
+
         function syncFilterInputs() {
             // Sync checkbox states between mobile and desktop
             const desktopCheckboxes = document.querySelectorAll('.sidebar input[type="checkbox"]');
@@ -4704,32 +2666,32 @@
                     mobileCheckboxes[index].checked = checkbox.checked;
                 }
             });
-            
+
             // Sync input values
             const zipInput = document.getElementById('zipInput');
             const mobileZipInput = document.getElementById('mobileZipInput');
             const radiusSelect = document.getElementById('radiusSelect');
             const mobileRadiusSelect = document.getElementById('mobileRadiusSelect');
-            
+
             if (zipInput && mobileZipInput) {
                 mobileZipInput.value = zipInput.value;
             }
-            
+
             if (radiusSelect && mobileRadiusSelect) {
                 mobileRadiusSelect.value = radiusSelect.value;
             }
         }
-        
+
         // ===============================
         // Mobile Map Functions
         // ===============================
         let mobileMap = null;
         let mobileMapMarkers = [];
-        
+
         function initMobileMap(data) {
             const mapDiv = document.getElementById('mobileMainMap');
             if (!mapDiv) return;
-            
+
             if (!mobileMap) {
                 mobileMap = L.map('mobileMainMap').setView([32.7, -83.4], 7);
                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -4737,45 +2699,45 @@
                     maxZoom: 18
                 }).addTo(mobileMap);
             }
-            
+
             updateMobileMapMarkers(data);
         }
-        
+
         function updateMobileMapMarkers(data) {
             // Clear old markers
             mobileMapMarkers.forEach(marker => mobileMap.removeLayer(marker));
             mobileMapMarkers = [];
-            
+
             if (data.length === 0) return;
-            
+
             // Add new markers
             data.forEach(hospital => {
                 let lat = parseFloat(hospital.Latitude);
                 let lon = parseFloat(hospital.Longitude);
-                
+
                 // If no coordinates, approximate from ZIP code
                 if ((!lat || !lon) && hospital.Zip) {
                     [lat, lon] = getZipCoords(hospital.Zip);
                 }
-                
+
                 if (!lat || !lon) return;
-                
+
                 const grade = hospital.TIER_1_GRADE_Lown_Composite || 'N/A';
                 const stars = convertGradeToStars(grade);
-                
+
                 const popupHTML = `
-                <div class="map-popup">
-                    <strong>${hospital.Name || 'Unnamed Hospital'}</strong><br>
-                    ${hospital.City || ''}, ${hospital.State || ''}<br>
-                    <div class="star-rating">${renderStars(stars.value)}</div>
-                    <a href="#" class="view-full-detail" data-id="${hospital.RECORD_ID}">
-                        View Full Details
-                    </a>
-                </div>
+                    <div class="map-popup">
+                        <strong>${hospital.Name || 'Unnamed Hospital'}</strong><br>
+                        ${hospital.City || ''}, ${hospital.State || ''}<br>
+                        <div class="star-rating">${renderStars(stars.value)}</div>
+                        <a href="#" class="view-full-detail" data-id="${hospital.RECORD_ID}">
+                            View Full Details
+                        </a>
+                    </div>
                 `;
-                
+
                 const marker = L.marker([lat, lon]).addTo(mobileMap).bindPopup(popupHTML);
-                
+
                 // Add click event to the "View Full Details" link
                 marker.on('popupopen', function() {
                     const detailLink = document.querySelector('.leaflet-popup-content .view-full-detail');
@@ -4787,16 +2749,16 @@
                         });
                     }
                 });
-                
+
                 mobileMapMarkers.push(marker);
             });
-            
+
             // Adjust map to fit all visible markers
             if (mobileMapMarkers.length > 0) {
                 const group = L.featureGroup(mobileMapMarkers);
                 mobileMap.fitBounds(group.getBounds().pad(0.2));
             }
-            
+
             // Ensure map is properly sized
             setTimeout(() => {
                 if (mobileMap) {
@@ -4804,66 +2766,65 @@
                 }
             }, 100);
         }
-        
+
         // ===============================
         // Render Hospitals
         // ===============================
         function renderHospitals(data) {
             const resultsTable = document.getElementById('hospitalResults');
             const resultsCount = document.getElementById('resultsCount');
-            
+
             // Clear old results
             resultsTable.innerHTML = '';
-            
+
             // Update results count
             resultsCount.textContent = `Viewing ${data.length} results`;
-            
+
             if (!data.length) {
                 resultsTable.innerHTML = `<tr><td colspan="3">No hospitals match the selected filters.</td></tr>`;
                 return;
             }
-            
+
             data.forEach(hospital => {
                 // Convert letter grade to star rating
                 const grade = hospital.TIER_1_GRADE_Lown_Composite || 'N/A';
                 const stars = convertGradeToStars(grade);
-                
+
                 // === Main Row ===
                 const row = document.createElement('tr');
                 row.classList.add('hospital-row');
-                
+
                 const gradeCell = document.createElement('td');
                 gradeCell.innerHTML = `
-                <div class="star-rating" aria-label="${stars.value} out of 5 stars">
-                    ${renderStars(stars.value)}
-                </div>
+                    <div class="star-rating" aria-label="${stars.value} out of 5 stars">
+                        ${renderStars(stars.value)}
+                    </div>
                 `;
                 row.appendChild(gradeCell);
-                
+
                 const nameCell = document.createElement('td');
                 nameCell.innerHTML = `
-                <strong>
-                    <a href="#" class="hospital-link" data-id="${hospital.RECORD_ID}">
-                        ${hospital.Name || 'Unnamed Hospital'}
-                    </a>
-                </strong><br>
-                ${hospital.City || ''}, ${hospital.State || ''}
+                    <strong>
+                        <a href="#" class="hospital-link" data-id="${hospital.RECORD_ID}">
+                            ${hospital.Name || 'Unnamed Hospital'}
+                        </a>
+                    </strong><br>
+                    ${hospital.City || ''}, ${hospital.State || ''}
                 `;
                 row.appendChild(nameCell);
-                
+
                 // === Buttons ===
                 const buttonCell = document.createElement('td');
                 buttonCell.classList.add('details-buttons');
-                
+
                 const detailsButton = document.createElement('button');
                 detailsButton.textContent = 'View Details ▼';
                 detailsButton.classList.add('toggle-detail');
-                
+
                 const fullDetailsButton = document.createElement('button');
                 fullDetailsButton.textContent = 'View Full Details';
                 fullDetailsButton.classList.add('view-full-detail');
                 fullDetailsButton.setAttribute('data-id', hospital.RECORD_ID);
-                
                 fullDetailsButton.addEventListener('click', () => {
                     if (hospital.RECORD_ID) {
                         showHospitalDetails(hospital.RECORD_ID);
@@ -4871,41 +2832,41 @@
                         showErrorPopup('Sorry, we couldn\'t find more details for this hospital.');
                     }
                 });
-                
+
                 buttonCell.appendChild(detailsButton);
                 buttonCell.appendChild(fullDetailsButton);
                 row.appendChild(buttonCell);
-                
+
                 // === Detail Row (collapsed preview) ===
                 const detailRow = document.createElement('tr');
                 detailRow.classList.add('hospital-detail-row');
                 detailRow.style.display = 'none';
-                
+
                 const detailCell = document.createElement('td');
                 detailCell.colSpan = 3;
                 detailCell.innerHTML = `
-                <div class="detail-info">
-                    <p class="inline-stars"><strong>Outcome:</strong> ${renderStars(convertGradeToStars(hospital.TIER_2_GRADE_Outcome || 'F').value)}</p>
-                    <p class="inline-stars"><strong>Value:</strong> ${renderStars(convertGradeToStars(hospital.TIER_2_GRADE_Value || 'F').value)}</p>
-                    <p class="inline-stars"><strong>Civic:</strong> ${renderStars(convertGradeToStars(hospital.TIER_2_GRADE_Civic || 'F').value)}</p>
-                    <p class="inline-stars"><strong>Safety:</strong> ${renderStars(convertGradeToStars(hospital.TIER_3_GRADE_Pat_Saf || 'F').value)}</p>
-                    <p class="inline-stars"><strong>Experience:</strong> ${renderStars(convertGradeToStars(hospital.TIER_3_GRADE_Pat_Exp || 'F').value)}</p>
-                </div>
+                    <div class="detail-info">
+                        <p class="inline-stars"><strong>Outcome:</strong> ${renderStars(convertGradeToStars(hospital.TIER_2_GRADE_Outcome || 'F').value)}</p>
+                        <p class="inline-stars"><strong>Value:</strong> ${renderStars(convertGradeToStars(hospital.TIER_2_GRADE_Value || 'F').value)}</p>
+                        <p class="inline-stars"><strong>Civic:</strong> ${renderStars(convertGradeToStars(hospital.TIER_2_GRADE_Civic || 'F').value)}</p>
+                        <p class="inline-stars"><strong>Safety:</strong> ${renderStars(convertGradeToStars(hospital.TIER_3_GRADE_Pat_Saf || 'F').value)}</p>
+                        <p class="inline-stars"><strong>Experience:</strong> ${renderStars(convertGradeToStars(hospital.TIER_3_GRADE_Pat_Exp || 'F').value)}</p>
+                    </div>
                 `;
                 detailRow.appendChild(detailCell);
-                
+
                 // === Toggle Logic (single listener) ===
                 detailsButton.addEventListener('click', () => {
                     const isHidden = detailRow.style.display === 'none' || detailRow.style.display === '';
                     detailRow.style.display = isHidden ? 'table-row' : 'none';
                     detailsButton.textContent = isHidden ? 'Hide Details ▲' : 'View Details ▼';
                 });
-                
+
                 // === Append both rows ===
                 resultsTable.appendChild(row);
                 resultsTable.appendChild(detailRow);
             });
-            
+
             // Add event listeners to hospital links
             const hospitalLinks = document.querySelectorAll('.hospital-link');
             hospitalLinks.forEach(link => {
@@ -4915,13 +2876,13 @@
                     showHospitalDetails(hospitalId);
                 });
             });
-            
+
             // Update mobile map
             if (mobileMap) {
                 updateMobileMapMarkers(data);
             }
         }
-        
+
         // ===============================
         // View Toggle and Filter Buttons
         // ===============================
@@ -4930,13 +2891,13 @@
             const viewIndividualsBtn = document.getElementById('viewIndividualsBtn');
             const compareHospitalsBtn = document.getElementById('compareHospitalsBtn');
             const individualOptions = document.getElementById('individualOptions');
-            
+
             function deactivateAllViewButtons() {
                 viewSystemsBtn.classList.remove('active');
                 viewIndividualsBtn.classList.remove('active');
                 compareHospitalsBtn.classList.remove('active');
             }
-            
+
             // View Systems toggle
             viewSystemsBtn.addEventListener('click', () => {
                 deactivateAllViewButtons();
@@ -4944,7 +2905,7 @@
                 individualOptions.style.display = 'none';
                 applyAllFilters();
             });
-            
+
             // View Individuals toggle
             viewIndividualsBtn.addEventListener('click', () => {
                 deactivateAllViewButtons();
@@ -4952,7 +2913,7 @@
                 individualOptions.style.display = 'block';
                 applyAllFilters();
             });
-            
+
             // Compare Hospitals toggle
             compareHospitalsBtn.addEventListener('click', () => {
                 deactivateAllViewButtons();
@@ -4962,16 +2923,16 @@
                 showPage('compare');
             });
         }
-        
+
         function initFilterButtons() {
             const filterCriticalBtn = document.getElementById('filterCriticalBtn');
             const filterAcuteBtn = document.getElementById('filterAcuteBtn');
-            
+
             function deactivateHospitalTypeButtons() {
                 filterCriticalBtn.classList.remove('active');
                 filterAcuteBtn.classList.remove('active');
             }
-            
+
             // Critical Access toggle
             filterCriticalBtn.addEventListener('click', () => {
                 const isActive = filterCriticalBtn.classList.contains('active');
@@ -4981,7 +2942,7 @@
                 }
                 applyAllFilters();
             });
-            
+
             // Acute Care toggle
             filterAcuteBtn.addEventListener('click', () => {
                 const isActive = filterAcuteBtn.classList.contains('active');
@@ -4991,48 +2952,48 @@
                 }
                 applyAllFilters();
             });
-            
+
             // Apply Location Button
             document.getElementById('applyLocationBtn').addEventListener('click', () => {
                 applyAllFilters();
             });
-            
+
             // Apply Filters Button
             document.getElementById('applyFiltersBtn').addEventListener('click', () => {
                 applyAllFilters();
             });
-            
+
             // Reset Filters Button
             document.getElementById('resetFiltersBtn').addEventListener('click', resetAllFilters);
-            
+
             // Sort Event Listener
             document.getElementById('sortSelect').addEventListener('change', () => {
                 sortAndRender(filteredHospitalData);
             });
-            
+
             // Download Data Button
             document.getElementById('downloadDataBtn').addEventListener('click', () => {
                 console.log('Download triggered');
                 // TODO: backend or SheetJS export
             });
         }
-        
+
         // Helper function to get current selection
         function getSelectedHospitalType() {
             const filterCriticalBtn = document.getElementById('filterCriticalBtn');
             const filterAcuteBtn = document.getElementById('filterAcuteBtn');
-            
+
             if (filterCriticalBtn.classList.contains('active')) return 'Critical Access';
             if (filterAcuteBtn.classList.contains('active')) return 'Acute Care';
             return null;
         }
-        
+
         // ===============================
         // Main Filter Function
         // ===============================
         function applyAllFilters() {
             let filtered = [...hospitalData];
-            
+
             // Apply hospital type filters
             const selectedHospitalType = getSelectedHospitalType();
             if (selectedHospitalType === 'Critical Access') {
@@ -5040,7 +3001,7 @@
             } else if (selectedHospitalType === 'Acute Care') {
                 filtered = filtered.filter(hospital => hospital.TYPE_HospTyp_ACH === 1);
             }
-            
+
             // Apply checkbox filters
             const checked = [...document.querySelectorAll('input[type="checkbox"]:checked')].map(cb => cb.value);
             if (checked.length > 0) {
@@ -5059,7 +3020,7 @@
                     });
                 });
             }
-            
+
             // Apply location filter
             const zip = document.getElementById('zipInput').value.trim();
             const radius = document.getElementById('radiusSelect').value;
@@ -5072,15 +3033,15 @@
                     return distance <= parseInt(radius);
                 });
             }
-            
+
             filteredHospitalData = filtered;
-            
+
             // Apply sorting and render
             sortAndRender(filteredHospitalData);
             updateMapMarkers(filteredHospitalData);
             updateMobileMapMarkers(filteredHospitalData);
         }
-        
+
         // ===============================
         // Distance Calculation
         // ===============================
@@ -5095,14 +3056,14 @@
             const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
             return R * c;
         }
-        
+
         // ===============================
         // Sorting Function
         // ===============================
         function sortAndRender(data) {
             const sortValue = document.getElementById('sortSelect').value;
             let sorted = [...data];
-            
+
             if (sortValue === 'grade') {
                 sorted.sort((a, b) => {
                     const gradeOrder = {'A+': 12, 'A': 11, 'A-': 10, 'B+': 9, 'B': 8, 'B-': 7, 'C+': 6, 'C': 5, 'C-': 4, 'D+': 3, 'D': 2, 'D-': 1, 'F': 0, 'N/A': -1};
@@ -5122,10 +3083,10 @@
                     return sizeA - sizeB; // Small to large
                 });
             }
-            
+
             renderHospitals(sorted);
         }
-        
+
         // ===============================
         // Reset Filters
         // ===============================
@@ -5133,38 +3094,38 @@
             document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
             document.getElementById('zipInput').value = '';
             document.getElementById('radiusSelect').selectedIndex = 0;
-            
+
             // Reset view buttons
             const viewSystemsBtn = document.getElementById('viewSystemsBtn');
             const viewIndividualsBtn = document.getElementById('viewIndividualsBtn');
             const filterCriticalBtn = document.getElementById('filterCriticalBtn');
             const filterAcuteBtn = document.getElementById('filterAcuteBtn');
-            
+
             viewSystemsBtn.classList.remove('active');
             viewIndividualsBtn.classList.remove('active');
             filterCriticalBtn.classList.remove('active');
             filterAcuteBtn.classList.remove('active');
-            
+
             // Reset to all data
             filteredHospitalData = [...hospitalData];
             renderHospitals(hospitalData);
             updateMapMarkers(hospitalData);
             updateMobileMapMarkers(hospitalData);
         }
-        
+
         // ===============================
         // Map Functions
         // ===============================
         let map = null;
         let mapMarkers = [];
-        
+
         function initHospitalMap(data) {
             const mapDiv = document.getElementById('mainMap');
             if (!mapDiv) {
                 console.error('Map container not found!');
                 return;
             }
-            
+
             // Initialize map only once
             if (!map) {
                 console.log('Initializing map...');
@@ -5175,53 +3136,53 @@
                 }).addTo(map);
                 console.log('Map initialized successfully');
             }
-            
+
             updateMapMarkers(data);
         }
-        
+
         function updateMapMarkers(data) {
             console.log('Updating map markers with', data.length, 'hospitals');
-            
+
             // Clear old markers
             mapMarkers.forEach(marker => map.removeLayer(marker));
             mapMarkers = [];
-            
+
             if (data.length === 0) {
                 console.log('No data to display on map');
                 return;
             }
-            
+
             // Add new markers
             data.forEach(hospital => {
                 let lat = parseFloat(hospital.Latitude);
                 let lon = parseFloat(hospital.Longitude);
-                
+
                 // If no coordinates, approximate from ZIP code
                 if ((!lat || !lon) && hospital.Zip) {
                     [lat, lon] = getZipCoords(hospital.Zip);
                 }
-                
+
                 if (!lat || !lon) {
                     console.warn('No coordinates for hospital:', hospital.Name);
                     return;
                 }
-                
+
                 const grade = hospital.TIER_1_GRADE_Lown_Composite || 'N/A';
                 const stars = convertGradeToStars(grade);
-                
+
                 const popupHTML = `
-                <div class="map-popup">
-                    <strong>${hospital.Name || 'Unnamed Hospital'}</strong><br>
-                    ${hospital.City || ''}, ${hospital.State || ''}<br>
-                    <div class="star-rating">${renderStars(stars.value)}</div>
-                    <a href="#" class="view-full-detail" data-id="${hospital.RECORD_ID}">
-                        View Full Details
-                    </a>
-                </div>
+                    <div class="map-popup">
+                        <strong>${hospital.Name || 'Unnamed Hospital'}</strong><br>
+                        ${hospital.City || ''}, ${hospital.State || ''}<br>
+                        <div class="star-rating">${renderStars(stars.value)}</div>
+                        <a href="#" class="view-full-detail" data-id="${hospital.RECORD_ID}">
+                            View Full Details
+                        </a>
+                    </div>
                 `;
-                
+
                 const marker = L.marker([lat, lon]).addTo(map).bindPopup(popupHTML);
-                
+
                 // Add click event to the "View Full Details" link
                 marker.on('popupopen', function() {
                     const detailLink = document.querySelector('.leaflet-popup-content .view-full-detail');
@@ -5233,55 +3194,49 @@
                         });
                     }
                 });
-                
+
                 mapMarkers.push(marker);
             });
-            
+
             console.log('Added', mapMarkers.length, 'markers to map');
-            
+
             // Adjust map to fit all visible markers
             if (mapMarkers.length > 0) {
                 const group = L.featureGroup(mapMarkers);
                 map.fitBounds(group.getBounds().pad(0.2));
                 console.log('Map bounds adjusted to fit markers');
             }
-            
+
             // Ensure map is properly sized
             setTimeout(() => {
                 map.invalidateSize();
                 console.log('Map size invalidated');
             }, 100);
         }
-        
+
         // ===============================
         // ZIP-Based Coordinate Approximation
         // ===============================
         function getZipCoords(zip) {
             const lookup = {
-                '30303': [33.7525, -84.3915], // Atlanta
-                '30606': [33.9597, -83.3764], // Athens
-                '31404': [32.0760, -81.0886], // Savannah
-                '31533': [31.5185, -82.8499], // Douglas
-                '30553': [34.3434, -83.8003], // Lavonia
-                '30720': [34.7698, -84.9719], // Dalton
-                '31201': [32.8306, -83.6513], // Macon
-                '31901': [32.464, -84.9877], // Columbus
-                '31401': [32.0809, -81.0912], // Savannah
-                '31701': [31.5795, -84.1557], // Albany
-                '39817': [30.9043, -84.5762], // Bainbridge
-                '30161': [34.2546, -85.1647], // Rome
-                '30501': [34.2963, -83.8255], // Gainesville
-                '30117': [33.5801, -85.0767], // Carrollton
-                '31093': [32.6184, -83.6272], // Warner Robins
-                '31405': [32.0316, -81.1028], // Savannah
-                '31021': [32.5563, -82.8947], // Dublin
-                '31792': [30.8365, -83.9787] // Thomasville
+                '31513': [33.54609, -82.3163154], // Baxley
+                '31510': [31.538626, -82.459238], // Alma
+                '30830': [33.0833, -82.0134], // Waynesboro
+                '30301': [33.749, -84.388], // Atlanta
+                '30309': [33.80915, -84.39547], // Atlanta
+                '31701': [31.59022, -84.15779], // Albany
+                '30342': [33.908404, -84.354543], // Atlanta
+                '30180': [33.56995, -85.07421], // Villa Rica
+                '30322': [33.7954, -84.3202], // Atlanta
+                '30606': [34.16608, -83.4013], // Athens
+                '30060': [33.96795, -84.55135], // Marietta
+                // Add more as needed from your data
             };
             
             const coords = lookup[String(zip)] || [32.5, -83.5]; // Default to central Georgia
             return coords;
         }
-        
+
         // ===============================
         // Star Rating Utilities
         // ===============================
@@ -5291,13 +3246,13 @@
                 'B+': 4.5, 'B': 4, 'B-': 3.5,
                 'C+': 3.5, 'C': 3, 'C-': 2.5,
                 'D+': 2.5, 'D': 2, 'D-': 1.5,
-                'F': 1,
+                'F': 1, 'N/A': 0
             };
-            
-            const value = gradeMap[grade.trim()] || 0;
+
+            const value = gradeMap[grade] || 0;
             return { value };
         }
-        
+
         function renderStars(value) {
             let html = '';
             for (let i = 1; i <= 5; i++) {
@@ -5311,37 +3266,37 @@
             }
             return html;
         }
-        
+
         function fullStarSVG() {
             return `
-            <svg class="star full" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M12 .587l3.668 7.431L24 9.748l-6 5.848 1.416 8.26L12 19.896l-7.416 3.96L6 15.596 0 9.748l8.332-1.73z"/>
-            </svg>
+                <svg class="star full" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 .587l3.668 7.431L24 9.748l-6 5.848 1.416 8.26L12 19.896l-7.416 3.96L6 15.596 0 9.748l8.332-1.73z"/>
+                </svg>
             `;
         }
-        
+
         function halfStarSVG() {
             return `
-            <svg class="star half" viewBox="0 0 24 24" aria-hidden="true">
-                <defs>
-                    <linearGradient id="halfGradient" x1="0" x2="1">
-                        <stop offset="50%" stop-color="#f48810" />
-                        <stop offset="50%" stop-color="#a4cc95" />
-                    </linearGradient>
-                </defs>
-                <path fill="url(#halfGradient)" d="M12 .587l3.668 7.431L24 9.748l-6 5.848 1.416 8.26L12 19.896l-7.416 3.96L6 15.596 0 9.748l8.332-1.73z"/>
-            </svg>
+                <svg class="star half" viewBox="0 0 24 24" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="halfGradient" x1="0" x2="1">
+                            <stop offset="50%" stop-color="#f48810" />
+                            <stop offset="50%" stop-color="#a4cc95" />
+                        </linearGradient>
+                    </defs>
+                    <path fill="url(#halfGradient)" d="M12 .587l3.668 7.431L24 9.748l-6 5.848 1.416 8.26L12 19.896l-7.416 3.96L6 15.596 0 9.748l8.332-1.73z"/>
+                </svg>
             `;
         }
-        
+
         function emptyStarSVG() {
             return `
-            <svg class="star empty" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M12 .587l3.668 7.431L24 9.748l-6 5.848 1.416 8.26L12 19.896l-7.416 3.96L6 15.596 0 9.748l8.332-1.73z"/>
-            </svg>
+                <svg class="star empty" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 .587l3.668 7.431L24 9.748l-6 5.848 1.416 8.26L12 19.896l-7.416 3.96L6 15.596 0 9.748l8.332-1.73z"/>
+                </svg>
             `;
         }
-        
+
         // ===============================
         // Error Popup Utility
         // ===============================
@@ -5350,34 +3305,31 @@
             popup.className = 'error-popup';
             popup.innerHTML = `<p>${message}</p>`;
             document.body.appendChild(popup);
-            
             setTimeout(() => popup.classList.add('visible'), 10);
-            
             setTimeout(() => {
                 popup.classList.remove('visible');
                 setTimeout(() => popup.remove(), 400);
             }, 4000);
         }
-        
+
         // ===============================
         // Hospital Details Page
         // ===============================
         function showHospitalDetails(hospitalId) {
             const hospital = hospitalData.find(h => String(h.RECORD_ID) === String(hospitalId));
-            
             if (!hospital) {
                 showErrorPopup('Hospital details not found.');
                 return;
             }
-            
+
             // Show details page
             showPage('details');
-            
+
             // Populate hospital details
             document.getElementById('hospitalName').textContent = hospital.Name || 'Unnamed Hospital';
             document.getElementById('streetLine').textContent = hospital.Address || '---';
             document.getElementById('cityStateZip').textContent = [hospital.City, hospital.State, hospital.Zip].filter(Boolean).join(', ');
-            
+
             // Hospital Info
             const infoMap = {
                 hospitalCounty: hospital.County || '---',
@@ -5417,17 +3369,17 @@
                 })(),
                 hospitalBeds: "---" // dataset doesn't contain numeric beds; size used instead
             };
-            
+
             // Apply infoMap values to page
             for (const [id, val] of Object.entries(infoMap)) {
                 const el = document.getElementById(id);
                 if (el) el.textContent = val;
             }
-            
+
             // Services
             const list = document.getElementById('hospitalServices');
             list.innerHTML = '';
-            
+
             // Default fallback list if dataset has no service info
             let services = [
                 "Behavioral Health",
@@ -5443,9 +3395,9 @@
                 "Physical Therapy",
                 "Rehabilitation"
             ];
-            
+
             list.innerHTML = services.map(s => `<li>${s}</li>`).join('');
-            
+
             // Overall Grade
             const overallGrade = hospital.TIER_1_GRADE_Lown_Composite || "N/A";
             const starWrap = document.getElementById('overallStars');
@@ -5455,11 +3407,11 @@
                     overallGrade
                 );
             }
-            
+
             // Hide redundant text
             const gradeText = document.getElementById('overallGradeText');
             if (gradeText) gradeText.textContent = "";
-            
+
             // Category-level stars
             const categoryMap = {
                 financialTransparencyStars: [
@@ -5480,7 +3432,7 @@
                     "TIER_3_GRADE_Inclusivity"
                 ]
             };
-            
+
             for (const [id, fields] of Object.entries(categoryMap)) {
                 let grade = "N/A";
                 for (const key of fields) {
@@ -5492,36 +3444,36 @@
                 const el = document.getElementById(id);
                 if (el) el.innerHTML = renderStars(convertGradeToStars(grade).value, grade);
             }
-            
+
             // Map
             const mapDiv = document.getElementById('leafletMap');
             if (mapDiv) {
                 let lat = parseFloat(hospital.Latitude);
                 let lon = parseFloat(hospital.Longitude);
-                
+
                 if (!lat || !lon) {
                     const coords = getZipCoords(hospital.Zip);
                     lat = coords[0];
                     lon = coords[1];
                 }
-                
+
                 // Clear any existing map
                 if (window.detailMap) {
                     window.detailMap.remove();
                 }
-                
+
                 window.detailMap = L.map('leafletMap').setView([lat, lon], 13);
                 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
                     attribution: "&copy; OpenStreetMap contributors"
                 }).addTo(window.detailMap);
-                
+
                 L.marker([lat, lon]).addTo(window.detailMap).bindPopup(hospital.Name || 'Unnamed Hospital');
-                
+
                 document.getElementById("gmapsLink").href =
                     `https://www.google.com/maps/search/?api=1&query=${lat},${lon}`;
             }
         }
-        
+
         // ===============================
         // Compare Page Functions
         // ===============================
@@ -5529,46 +3481,45 @@
             hospital1: null,
             hospital2: null
         };
-        
+
         function initComparePage() {
             populateHospitalDropdowns();
             initializeCompareEventListeners();
         }
-        
+
         function populateHospitalDropdowns() {
             const hospital1Select = document.getElementById('hospital1Select');
             const hospital2Select = document.getElementById('hospital2Select');
-            
+
             // Clear existing options except the first one
             while (hospital1Select.options.length > 1) {
                 hospital1Select.remove(1);
             }
-            
             while (hospital2Select.options.length > 1) {
                 hospital2Select.remove(1);
             }
-            
+
             // Sort hospitals by name for easier selection
             const sortedHospitals = [...hospitalData].sort((a, b) => {
                 const nameA = a.Name || 'Unnamed Hospital';
                 const nameB = b.Name || 'Unnamed Hospital';
                 return nameA.localeCompare(nameB);
             });
-            
+
             // Populate dropdowns
             sortedHospitals.forEach(hospital => {
                 const name = hospital.Name || 'Unnamed Hospital';
                 const location = `${hospital.City || ''}, ${hospital.State || ''}`;
                 const optionText = `${name} - ${location}`;
-                
+
                 const option1 = new Option(optionText, hospital.RECORD_ID);
                 const option2 = new Option(optionText, hospital.RECORD_ID);
-                
+
                 hospital1Select.add(option1);
                 hospital2Select.add(option2);
             });
         }
-        
+
         function initializeCompareEventListeners() {
             // Dropdown change events
             document.getElementById('hospital1Select').addEventListener('change', (e) => {
@@ -5580,7 +3531,7 @@
                     clearHospitalSelection('hospital1');
                 }
             });
-            
+
             document.getElementById('hospital2Select').addEventListener('change', (e) => {
                 const hospitalId = e.target.value;
                 if (hospitalId) {
@@ -5590,28 +3541,28 @@
                     clearHospitalSelection('hospital2');
                 }
             });
-            
+
             // Compare button
             document.getElementById('compareNowBtn').addEventListener('click', compareHospitals);
-            
+
             // Clear selection
             document.getElementById('clearSelectionBtn').addEventListener('click', clearSelection);
-            
+
             // Back to selection
             document.getElementById('backToSelectionBtn').addEventListener('click', backToSelection);
-            
+
             // Category toggles
             document.querySelectorAll('.category-header').forEach(header => {
                 header.addEventListener('click', toggleCategory);
             });
         }
-        
+
         function selectHospital(hospital, slot) {
             selectedHospitals[slot] = hospital;
             updateSelectedHospitalDisplay(hospital, slot);
             updateCompareButton();
         }
-        
+
         function clearHospitalSelection(slot) {
             selectedHospitals[slot] = null;
             const container = document.getElementById(`selected${slot.charAt(0).toUpperCase() + slot.slice(1)}`);
@@ -5619,77 +3570,77 @@
             container.classList.remove('hospital-selected');
             updateCompareButton();
         }
-        
+
         function updateSelectedHospitalDisplay(hospital, slot) {
             const container = document.getElementById(`selected${slot.charAt(0).toUpperCase() + slot.slice(1)}`);
             const grade = hospital.TIER_1_GRADE_Lown_Composite || 'N/A';
             const stars = convertGradeToStars(grade);
-            
+
             container.innerHTML = `
-            <div class="hospital-preview">
-                <h4>${hospital.Name || 'Unnamed Hospital'}</h4>
-                <div class="location">${hospital.City || ''}, ${hospital.State || ''}</div>
-                <div class="grade">
-                    Overall Grade:
-                    <div class="star-rating">${renderStars(stars.value)}</div>
+                <div class="hospital-preview">
+                    <h4>${hospital.Name || 'Unnamed Hospital'}</h4>
+                    <div class="location">${hospital.City || ''}, ${hospital.State || ''}</div>
+                    <div class="grade">
+                        Overall Grade:
+                        <div class="star-rating">${renderStars(stars.value)}</div>
+                    </div>
                 </div>
-            </div>
             `;
-            
+
             container.classList.add('hospital-selected');
         }
-        
+
         function updateCompareButton() {
             const compareBtn = document.getElementById('compareNowBtn');
             const hasBothHospitals = selectedHospitals.hospital1 && selectedHospitals.hospital2;
             compareBtn.disabled = !hasBothHospitals;
         }
-        
+
         function clearSelection() {
             selectedHospitals.hospital1 = null;
             selectedHospitals.hospital2 = null;
-            
+
             // Reset displays
             document.getElementById('selectedHospital1').innerHTML = '<p class="placeholder">No hospital selected</p>';
             document.getElementById('selectedHospital2').innerHTML = '<p class="placeholder">No hospital selected</p>';
             document.getElementById('selectedHospital1').classList.remove('hospital-selected');
             document.getElementById('selectedHospital2').classList.remove('hospital-selected');
-            
+
             // Reset dropdowns
             document.getElementById('hospital1Select').value = '';
             document.getElementById('hospital2Select').value = '';
-            
+
             updateCompareButton();
             backToSelection();
         }
-        
+
         function compareHospitals() {
             if (!selectedHospitals.hospital1 || !selectedHospitals.hospital2) return;
-            
+
             // Hide selection section, show results
             document.querySelector('.selection-section').style.display = 'none';
             document.getElementById('comparisonResults').style.display = 'block';
-            
+
             // Populate comparison
             populateComparison();
         }
-        
+
         function backToSelection() {
             document.querySelector('.selection-section').style.display = 'block';
             document.getElementById('comparisonResults').style.display = 'none';
         }
-        
+
         function toggleCategory(event) {
             const header = event.currentTarget;
             const content = header.nextElementSibling;
             header.classList.toggle('active');
             content.classList.toggle('active');
         }
-        
+
         function populateComparison() {
             const comparisonGrid = document.getElementById('comparisonGrid');
             comparisonGrid.innerHTML = '';
-            
+
             // Define comparison categories and metrics
             const categories = [
                 {
@@ -5736,100 +3687,96 @@
                     ]
                 }
             ];
-            
+
             categories.forEach(category => {
                 const categoryElement = createCategoryElement(category);
                 comparisonGrid.appendChild(categoryElement);
             });
         }
-        
+
         function createCategoryElement(category) {
             const categoryDiv = document.createElement('div');
             categoryDiv.className = 'comparison-category';
-            
+
             const header = document.createElement('div');
             header.className = 'category-header';
             header.innerHTML = `
-            <h3>${category.name}</h3>
-            <span class="category-toggle">▼</span>
+                <h3>${category.name}</h3>
+                <span class="category-toggle">▼</span>
             `;
-            
+
             const content = document.createElement('div');
             content.className = 'category-content active'; // Start expanded
-            
+
             const metricsGrid = document.createElement('div');
             metricsGrid.className = 'metrics-grid';
-            
+
             category.metrics.forEach(metric => {
                 const metricRow = createMetricRow(metric);
                 metricsGrid.appendChild(metricRow);
             });
-            
+
             content.appendChild(metricsGrid);
             categoryDiv.appendChild(header);
             categoryDiv.appendChild(content);
-            
+
             // Add click event for toggle
             header.addEventListener('click', toggleCategory);
-            
+
             return categoryDiv;
         }
-        
+
         function createMetricRow(metric) {
             const metricRow = document.createElement('div');
             metricRow.className = 'metric-row';
-            
+
             const hospital1Value = getFormattedValue(selectedHospitals.hospital1, metric);
             const hospital2Value = getFormattedValue(selectedHospitals.hospital2, metric);
-            
+
             metricRow.innerHTML = `
-            <div class="metric-name">${metric.label}</div>
-            <div class="metric-divider">vs</div>
-            <div class="metric-values">
-                <div class="metric-value hospital-1-value">
-                    <div class="metric-value-content">
-                        ${isGradeMetric(metric.key) ?
-                            `<div class="star-comparison">${renderStars(convertGradeToStars(selectedHospitals.hospital1[metric.key] || 'F').value)}</div>` :
-                            `<span class="metric-value-text">${hospital1Value}</span>`
-                        }
+                <div class="metric-name">${metric.label}</div>
+                <div class="metric-divider">vs</div>
+                <div class="metric-values">
+                    <div class="metric-value hospital-1-value">
+                        <div class="metric-value-content">
+                            ${isGradeMetric(metric.key) ?
+                                `<div class="star-comparison">${renderStars(convertGradeToStars(selectedHospitals.hospital1[metric.key] || 'F').value)}</div>` :
+                                `<span class="metric-value-text">${hospital1Value}</span>`
+                            }
+                        </div>
+                    </div>
+                    <div class="metric-value hospital-2-value">
+                        <div class="metric-value-content">
+                            ${isGradeMetric(metric.key) ?
+                                `<div class="star-comparison">${renderStars(convertGradeToStars(selectedHospitals.hospital2[metric.key] || 'F').value)}</div>` :
+                                `<span class="metric-value-text">${hospital2Value}</span>`
+                            }
+                        </div>
                     </div>
                 </div>
-                <div class="metric-value hospital-2-value">
-                    <div class="metric-value-content">
-                        ${isGradeMetric(metric.key) ?
-                            `<div class="star-comparison">${renderStars(convertGradeToStars(selectedHospitals.hospital2[metric.key] || 'F').value)}</div>` :
-                            `<span class="metric-value-text">${hospital2Value}</span>`
-                        }
-                    </div>
-                </div>
-            </div>
             `;
-            
+
             return metricRow;
         }
-        
+
         function getFormattedValue(hospital, metric) {
             const value = hospital[metric.key];
-            
             if (metric.format) {
                 return metric.format(value);
             }
-            
             if (value === null || value === undefined || value === 'NULL') {
                 return 'N/A';
             }
-            
             if (isGradeMetric(metric.key)) {
                 return value;
             }
-            
             return value;
         }
-        
+
         function isGradeMetric(key) {
             return key.includes('GRADE');
         }
-        
+
         // ===============================
         // Page Initialization
         // ===============================
